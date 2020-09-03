@@ -109,11 +109,6 @@
 	.site-content {
 		padding-top: 3rem;
 	}
-
-	.entry-content > .alignwide {
-		margin-left: -120px;
-		margin-right: -120px;
-	}
 }
 
 @media only screen and (min-width: 1280px) {
@@ -151,7 +146,15 @@
 	}
 
 	.entry-content > .alignwide {
-		margin-left: -200px;
-		margin-right: -200px;
+		margin-left: -120px;
+		margin-right: -120px;
+	}
+}
+
+@media only screen and ( min-width: calc( #{$themeWidth} ) ) {
+	.entry-content > .alignfull {
+		margin-left: calc(100% / 2 - #{$themeWidth} / 2);
+		margin-right: calc(100% / 2 - #{$themeWidth} / 2);
+		max-width: $themeWidth;
 	}
 }

@@ -31,8 +31,8 @@ body.page-template-template-fullwidth-no-title {
 	body.page-template-template-fullwidth,
 	body.page-template-template-fullwidth-no-title {
 		.entry-content > .alignwide {
-			margin-left: calc(-100vw / 2 + 100% / 2 + 8px);
-			margin-right: calc(-100vw / 2 + 100% / 2 + 8px);
+			margin-left: calc(-100vw / 2 + 100% / 2);
+			margin-right: calc(-100vw / 2 + 100% / 2);
 		}
 	}
 }
@@ -41,8 +41,8 @@ body.page-template-template-fullwidth-no-title {
 	body.page-template-template-fullwidth,
 	body.page-template-template-fullwidth-no-title {
 		.entry-content > .alignwide {
-			margin-left: -120px;
-			margin-right: -120px;
+			margin-left: -3.5rem;
+			margin-right: -3.5rem;
 		}
 	}
 }
