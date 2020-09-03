@@ -1574,9 +1574,6 @@ body.site-description-hidden .site-description {
 @media only screen and (min-width: 880px) {
 	.has-sidebar .site-content {
 		display: flex;
-		margin-left: auto;
-		margin-right: auto;
-		max-width: calc(1328px + 4rem);
 	}
 
 	.has-sidebar .site-content .site-main,
@@ -1644,25 +1641,15 @@ body.site-description-hidden .site-description {
 
 @media only screen and (min-width: 1280px) {
 	.sidebar .widget {
-		margin-bottom: 4rem;
+		margin-bottom: 3.5rem;
 	}
 
 	.has-sidebar .site-content .sidebar {
-		padding-left: 4rem;
+		padding-left: 3.5rem;
 	}
 
 	.page-template-template-sidebar-left.has-sidebar .site-content .sidebar {
-		padding-right: 4rem;
-	}
-}
-
-@media only screen and (min-width: 1440px) {
-	.has-sidebar .site-content .sidebar {
-		padding-left: 5rem;
-	}
-
-	.page-template-template-sidebar-left.has-sidebar .site-content .sidebar {
-		padding-right: 5rem;
+		padding-right: 3.5rem;
 	}
 }
 
