@@ -13,9 +13,9 @@
 
 		<?php gt_modern_post_image(); ?>
 
-		<?php gt_modern_entry_meta(); ?>
-
 		<?php the_title( sprintf( '<h2 class="post-title entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+
+		<?php gt_modern_entry_meta(); ?>
 
 	</header><!-- .entry-header -->
 

@@ -13,9 +13,9 @@
 
 		<?php gt_modern_post_image(); ?>
 
-		<?php gt_modern_entry_meta(); ?>
-
 		<?php the_title( '<h1 class="post-title entry-title">', '</h1>' ); ?>
+
+		<?php gt_modern_entry_meta(); ?>
 
 	</header><!-- .entry-header -->
 

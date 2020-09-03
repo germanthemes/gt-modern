@@ -82,7 +82,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--post-meta-color: rgba(0, 0, 0, 0.5);
 	--widget-title-color: #303030;
 	--widget-title-border-color: #0068a0;
-	--widget-border-color: rgba(0, 0, 0, 0.1);
+	--widget-background-color: rgba(0, 0, 0, 0.08);
 	--comments-border-color: rgba(0, 0, 0, 0.1);
 	--footer-background-color: #202020;
 	--footer-text-color: rgba(255, 255, 255, 0.5);
@@ -1501,18 +1501,16 @@ body.site-description-hidden .site-description {
 }
 
 .sidebar .widget {
-	border: 1px solid;
-	border-color: rgba(0, 0, 0, 0.1);
-	border-color: var(--widget-border-color);
 	padding: 1.5rem;
 	margin-bottom: 1.25rem;
+	background-color: rgba(0, 0, 0, 0.08);
+	background-color: var(--widget-background-color);
 }
 
 .sidebar .widget-title {
 	position: relative;
 	margin-top: 0;
-	margin-bottom: 2rem;
-	padding-bottom: 1rem;
+	margin-bottom: 1.5rem;
 	color: #303030;
 	color: var(--widget-title-color);
 	font-size: 22px;
@@ -1523,18 +1521,6 @@ body.site-description-hidden .site-description {
 	font-weight: var(--title-font-weight);
 	text-transform: none;
 	text-transform: var(--title-text-transform);
-}
-
-.sidebar .widget-title::before {
-	display: inline-block;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 3rem;
-	height: 4px;
-	content: "";
-	background-color: #0068a0;
-	background-color: var(--widget-title-border-color);
 }
 
 .sidebar .widget > ul a:link,
@@ -1678,19 +1664,6 @@ body.site-description-hidden .site-description {
 	position: relative;
 	margin-top: 0;
 	margin-bottom: 1rem;
-	padding-bottom: 1rem;
-}
-
-.entry-header::before {
-	display: inline-block;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 4rem;
-	height: 4px;
-	content: "";
-	background-color: #0068a0;
-	background-color: var(--title-border-color);
 }
 
 .entry-title {
@@ -1757,7 +1730,7 @@ body.site-description-hidden .site-description {
 }
 
 .entry-meta {
-	margin: 0 0 1rem;
+	margin: 1rem 0 0;
 }
 
 .entry-meta,
@@ -1766,7 +1739,6 @@ body.site-description-hidden .site-description {
 	color: var(--post-meta-color);
 	font-size: 14px;
 	font-size: 0.875rem;
-	font-weight: bold;
 	clear: both;
 }
 
@@ -1810,7 +1782,6 @@ body.tags-hidden.single-post .type-post .entry-tags {
 	background-color: var(--button-color);
 	font-size: 14px;
 	font-size: 0.875rem;
-	font-weight: bold;
 }
 
 .more-link:link,
@@ -2999,11 +2970,7 @@ h1.is-style-gt-heading {
 		display: block;
 	}
 
-	.entry-header {
-		padding-bottom: 1.25rem;
-		margin-bottom: 1.25rem;
-	}
-
+	.entry-header,
 	.post-image {
 		margin-bottom: 1.25rem;
 	}
@@ -3034,11 +3001,7 @@ h1.is-style-gt-heading {
 		margin-bottom: 2rem;
 	}
 
-	.entry-header {
-		padding-bottom: 1.5rem;
-		margin-bottom: 1.5rem;
-	}
-
+	.entry-header,
 	.post-image {
 		margin-bottom: 1.5rem;
 	}
@@ -3074,11 +3037,7 @@ h1.is-style-gt-heading {
 		margin-bottom: 3rem;
 	}
 
-	.entry-header {
-		padding-bottom: 1.75rem;
-		margin-bottom: 1.75rem;
-	}
-
+	.entry-header,
 	.post-image {
 		margin-bottom: 1.75rem;
 	}
@@ -3130,11 +3089,6 @@ h1.is-style-gt-heading {
 	.pagination,
 	.comments-area {
 		margin-bottom: 4rem;
-	}
-
-	.entry-header {
-		padding-bottom: 2rem;
-		margin-bottom: 2rem;
 	}
 
 	.post-image {

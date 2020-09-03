@@ -5,7 +5,6 @@
 	@include color(--button-text-color);
 	@include background(--button-color);
 	@include font-size(14);
-	font-weight: bold;
 }
 
 .more-link:link,
