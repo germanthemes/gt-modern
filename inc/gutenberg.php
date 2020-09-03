@@ -97,13 +97,6 @@ function gt_modern_gutenberg_support() {
 		),
 	) ) );
 
-	// Register Heading Block style.
-	register_block_style( 'core/heading', array(
-		'name'         => 'gt-heading',
-		'label'        => esc_html__( 'GT Modern', 'gt-modern' ),
-		'style_handle' => 'gt-modern-stylesheet',
-	) );
-
 	// Register Small Buttons Block style.
 	register_block_style( 'core/buttons', array(
 		'name'         => 'gt-small',

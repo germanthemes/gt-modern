@@ -8,15 +8,15 @@
 # - Variables
 --------------------------------------------------------------*/
 :root {
-	--primary-color: #0068a0;
-	--secondary-color: #084868;
-	--accent-color: #ffed62;
-	--highlight-color: #f33e3e;
+	--primary-color: #202020;
+	--secondary-color: #0068a0;
+	--accent-color: #084868;
+	--highlight-color: #00b0f8;
 	--light-gray-color: #f0f0f0;
-	--gray-color: #808080;
+	--gray-color: #707070;
 	--dark-gray-color: #303030;
 	--body-background-color: #ffffff;
-	--text-color: #303030;
+	--text-color: #151515;
 	--light-text-color: rgba(0, 0, 0, 0.5);
 	--light-background-color: rgba(0, 0, 0, 0.05);
 	--medium-background-color: rgba(0, 0, 0, 0.15);
@@ -25,7 +25,7 @@
 	--page-background-color: #fff;
 	--link-color: #0068a0;
 	--link-hover-color: #084868;
-	--button-color: #0068a0;
+	--button-color: #202020;
 	--button-text-color: #fff;
 	--button-hover-color: #084868;
 	--button-text-hover-color: #fff;
@@ -37,11 +37,9 @@
 	--header-hover-color: rgba(255, 255, 255, 0.5);
 	--header-border-color: rgba(255, 255, 255, 0.1);
 	--title-color: #202020;
-	--title-hover-color: #0068a0;
-	--title-border-color: #0068a0;
+	--title-hover-color: #084868;
 	--post-meta-color: rgba(0, 0, 0, 0.5);
-	--widget-title-color: #303030;
-	--widget-title-border-color: #0068a0;
+	--widget-title-color: #202020;
 	--widget-background-color: rgba(0, 0, 0, 0.08);
 	--comments-border-color: rgba(0, 0, 0, 0.1);
 	--footer-background-color: #202020;
@@ -116,7 +114,6 @@
 	width: 4rem;
 	height: 4px;
 	content: "";
-	background-color: #0068a0;
 	background-color: var(--title-border-color);
 }
 
@@ -160,14 +157,14 @@ body.gt-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-post-
 
 /* Typography */
 .editor-styles-wrapper {
-	color: #303030;
+	color: #151515;
 	color: var(--text-color);
 	background-color: #ffffff;
 	background-color: var(--body-background-color);
 }
 
 .editor-styles-wrapper > * {
-	color: #303030;
+	color: #151515;
 	color: var(--text-color);
 	font-family: "Roboto", arial, helvetica, sans-serif;
 	font-family: var(--text-font);
@@ -297,7 +294,7 @@ body.gt-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-post-
 	border-radius: 0;
 	border-color: rgba(0, 0, 0, 0.1);
 	border-color: var(--light-border-color);
-	color: #303030;
+	color: #151515;
 	color: var(--text-color);
 	background-color: rgba(0, 0, 0, 0.05);
 	background-color: var(--light-background-color);
@@ -338,7 +335,7 @@ body.gt-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-post-
 	margin: 0 0 1.75rem;
 	padding-left: 1.75rem;
 	border-left: 4px solid;
-	border-color: #303030;
+	border-color: #151515;
 	border-color: var(--text-color);
 	color: rgba(0, 0, 0, 0.5);
 	color: var(--light-text-color);
@@ -358,7 +355,7 @@ body.gt-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-post-
 .wp-block-pullquote footer,
 .wp-block-pullquote .wp-block-pullquote__citation {
 	display: block;
-	color: #303030;
+	color: #151515;
 	color: var(--text-color);
 	font-size: 16px;
 	font-size: 1rem;
@@ -509,7 +506,7 @@ p.has-background {
 }
 
 .wp-block-button:not(.is-style-outline) .wp-block-button__link:not(.has-background) {
-	background-color: #0068a0;
+	background-color: #202020;
 	background-color: var(--button-color);
 }
 
@@ -525,7 +522,6 @@ p.has-background {
 .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
 	max-width: 4rem;
 	height: 4px;
-	background-color: #0068a0;
 	background-color: var(--title-border-color);
 }
 
@@ -578,7 +574,7 @@ p.has-background {
 }
 
 .wp-block-pullquote blockquote cite {
-	color: #303030;
+	color: #151515;
 	color: var(--text-color);
 	font-family: "Roboto", arial, helvetica, sans-serif;
 	font-family: var(--text-font);
@@ -683,66 +679,6 @@ p.has-background {
 	}
 }
 
-/* GT Modern Heading Block Style */
-.is-style-gt-heading {
-	position: relative;
-	margin-bottom: 1rem;
-	padding-bottom: 1rem;
-	color: #303030;
-	color: var(--widget-title-color);
-	font-family: "Roboto", arial, helvetica, sans-serif;
-	font-family: var(--title-font);
-	font-weight: bold;
-	font-weight: var(--title-font-weight);
-	text-transform: none;
-	text-transform: var(--title-text-transform);
-}
-
-.is-style-gt-heading::before {
-	display: inline-block;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 4rem;
-	height: 4px;
-	content: "";
-	background-color: #0068a0;
-	background-color: var(--widget-title-border-color);
-}
-
-h1.is-style-gt-heading {
-	font-size: 28px;
-	font-size: 1.75rem;
-}
-
-@media only screen and (min-width: 480px) {
-	.is-style-gt-heading {
-		padding-bottom: 1.25rem;
-		margin-bottom: 1.25rem;
-	}
-}
-
-@media only screen and (min-width: 640px) {
-	.is-style-gt-heading {
-		padding-bottom: 1.5rem;
-		margin-bottom: 1.5rem;
-	}
-}
-
-@media only screen and (min-width: 960px) {
-	.is-style-gt-heading {
-		padding-bottom: 1.75rem;
-		margin-bottom: 1.75rem;
-	}
-}
-
-@media only screen and (min-width: 1280px) {
-	.is-style-gt-heading {
-		padding-bottom: 2rem;
-		margin-bottom: 2rem;
-	}
-}
-
 /* Buttons Block Style */
 .wp-block-buttons.is-style-gt-small .wp-block-button__link {
 	padding: 0.6rem 1rem;
@@ -798,22 +734,22 @@ h1.is-style-gt-heading {
 
 /* Block Text Colors */
 .has-primary-color {
-	color: #0068a0;
+	color: #202020;
 	color: var(--primary-color);
 }
 
 .has-secondary-color {
-	color: #084868;
+	color: #0068a0;
 	color: var(--secondary-color);
 }
 
 .has-accent-color {
-	color: #ffed62;
+	color: #084868;
 	color: var(--accent-color);
 }
 
 .has-highlight-color {
-	color: #f33e3e;
+	color: #00b0f8;
 	color: var(--highlight-color);
 }
 
@@ -827,7 +763,7 @@ h1.is-style-gt-heading {
 }
 
 .has-gray-color {
-	color: #808080;
+	color: #707070;
 	color: var(--gray-color);
 }
 
@@ -842,22 +778,22 @@ h1.is-style-gt-heading {
 
 /* Block Background Colors */
 .has-primary-background-color {
-	background-color: #0068a0;
+	background-color: #202020;
 	background-color: var(--primary-color);
 }
 
 .has-secondary-background-color {
-	background-color: #084868;
+	background-color: #0068a0;
 	background-color: var(--secondary-color);
 }
 
 .has-accent-background-color {
-	background-color: #ffed62;
+	background-color: #084868;
 	background-color: var(--accent-color);
 }
 
 .has-highlight-background-color {
-	background-color: #f33e3e;
+	background-color: #00b0f8;
 	background-color: var(--highlight-color);
 }
 
@@ -871,7 +807,7 @@ h1.is-style-gt-heading {
 }
 
 .has-gray-background-color {
-	background-color: #808080;
+	background-color: #707070;
 	background-color: var(--gray-color);
 }
 
