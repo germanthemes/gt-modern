@@ -54,13 +54,15 @@
 
 	.header-search-dropdown {
 		display: none;
-		margin: 1px 0 0;
+		margin: 0;
 		box-sizing: border-box;
 		z-index: 999;
 
 		.header-search-form {
 			display: flex;
 			padding: 1.5rem;
+			border-top: 1px solid;
+			@include border-color(--header-border-color);
 			@include background(--header-color);
 
 			.search-form {
@@ -105,18 +107,19 @@
 
 		.header-search-dropdown {
 			position: absolute;
+			margin-top: -1.5rem;
 			width: 100%;
+			max-width: $themeWidth;
 
 			.header-search-main {
 				display: flex;
 				justify-content: flex-end;
-				margin-left: auto;
-				margin-right: auto;
-				max-width: $contentFullwidth;
+				margin-right: 1.5rem;
 
 				.header-search-form {
-					max-width: 350px;
+					max-width: 450px;
 					flex-grow: 1;
+					border: 1px solid;
 				}
 			}
 		}
