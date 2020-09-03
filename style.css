@@ -71,10 +71,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--button-text-hover-color: #fff;
 	--header-bar-color: #202020;
 	--header-bar-text-color: #fff;
-	--header-bar-icon-color: #0068a0;
+	--header-bar-icon-color: rgba(255, 255, 255, 0.5);
 	--header-color: #202020;
 	--header-text-color: #fff;
-	--header-hover-color: #0068a0;
+	--header-hover-color: rgba(255, 255, 255, 0.5);
+	--header-border-color: rgba(255, 255, 255, 0.1);
 	--title-color: #202020;
 	--title-hover-color: #0068a0;
 	--title-border-color: #0068a0;
@@ -892,7 +893,7 @@ img.custom-logo {
 
 .site-title a:hover,
 .site-title a:active {
-	color: #0068a0;
+	color: rgba(255, 255, 255, 0.5);
 	color: var(--header-hover-color);
 }
 
@@ -900,7 +901,7 @@ img.custom-logo {
 	display: none;
 	margin: 0;
 	padding: 0;
-	color: #0068a0;
+	color: rgba(255, 255, 255, 0.5);
 	color: var(--header-hover-color);
 	font-size: 13px;
 	font-size: 0.8125rem;
@@ -968,7 +969,7 @@ body.site-description-hidden .site-description {
 }
 
 .main-navigation > ul {
-	margin: 1rem 0;
+	margin: 1.5rem 0;
 }
 
 /* Hide the menu on small screens when JavaScript is available. */
@@ -992,8 +993,11 @@ body.site-description-hidden .site-description {
 .main-navigation ul a {
 	display: block;
 	margin: 0;
-	padding: 1rem 0;
+	padding: 1rem;
 	text-decoration: none;
+	border-top: 1px solid;
+	border-color: rgba(255, 255, 255, 0.1);
+	border-color: var(--header-border-color);
 }
 
 .main-navigation ul a:link,
@@ -1006,7 +1010,7 @@ body.site-description-hidden .site-description {
 .main-navigation ul a:hover,
 .main-navigation ul a:active,
 .main-navigation ul a:focus {
-	color: #0068a0;
+	color: rgba(255, 255, 255, 0.5);
 	color: var(--header-hover-color);
 }
 
@@ -1072,7 +1076,7 @@ body.site-description-hidden .site-description {
 
 .menu-toggle:hover,
 .menu-toggle:active {
-	color: #0068a0;
+	color: rgba(255, 255, 255, 0.5);
 	color: var(--header-hover-color);
 	background: none;
 	cursor: pointer;
@@ -1089,7 +1093,7 @@ body.site-description-hidden .site-description {
 
 .menu-toggle:hover .icon,
 .menu-toggle:active .icon {
-	fill: #0068a0;
+	fill: rgba(255, 255, 255, 0.5);
 	fill: var(--header-hover-color);
 }
 
@@ -1137,7 +1141,7 @@ body.site-description-hidden .site-description {
 .dropdown-toggle:hover .icon,
 .dropdown-toggle:active .icon,
 .dropdown-toggle:focus .icon {
-	fill: #0068a0;
+	fill: rgba(255, 255, 255, 0.5);
 	fill: var(--header-hover-color);
 }
 
@@ -1207,7 +1211,7 @@ body.site-description-hidden .site-description {
 
 .mobile-menu-social-icons.social-icons-nav .social-icons-menu li a:hover,
 .mobile-menu-social-icons.social-icons-nav .social-icons-menu li a:active {
-	color: #0068a0;
+	color: rgba(255, 255, 255, 0.5);
 	color: var(--header-hover-color);
 }
 
@@ -1236,7 +1240,7 @@ body.site-description-hidden .site-description {
 
 .header-bar-social-icons.social-icons-nav .social-icons-menu li a:hover,
 .header-bar-social-icons.social-icons-nav .social-icons-menu li a:active {
-	color: #0068a0;
+	color: rgba(255, 255, 255, 0.5);
 	color: var(--header-bar-icon-color);
 }
 
@@ -1278,11 +1282,14 @@ body.site-description-hidden .site-description {
 # - Header Bar
 --------------------------------------------------------------*/
 .header-bar {
-	padding: 0.25rem 0.75rem;
+	padding: 0.5rem 1rem;
 	color: #fff;
 	color: var(--header-bar-text-color);
 	background-color: #202020;
 	background-color: var(--header-bar-color);
+	border-bottom: 1px solid;
+	border-color: rgba(255, 255, 255, 0.1);
+	border-color: var(--header-border-color);
 }
 
 .header-bar-main {
@@ -1326,7 +1333,7 @@ body.site-description-hidden .site-description {
 	margin: 0 0.25rem 0 0;
 	width: 18px;
 	height: 18px;
-	fill: #0068a0;
+	fill: rgba(255, 255, 255, 0.5);
 	fill: var(--header-bar-icon-color);
 }
 
@@ -1385,7 +1392,7 @@ body.site-description-hidden .site-description {
 
 .header-search-enabled .header-search-button .header-search-icon:hover, .header-search-enabled .header-search-button .header-search-icon:active {
 	cursor: pointer;
-	color: #0068a0;
+	color: rgba(255, 255, 255, 0.5);
 	color: var(--header-hover-color);
 }
 
@@ -3192,8 +3199,9 @@ h1.is-style-gt-heading {
 		border-bottom: none;
 	}
 
-	.main-navigation ul a {
-		padding: 2rem 1rem;
+	.main-navigation > ul > li > a {
+		padding: 1.25rem;
+		border: none;
 	}
 
 	/* Dropdown Menus */
@@ -3204,7 +3212,9 @@ h1.is-style-gt-heading {
 		z-index: 99999;
 		padding: 0;
 		background: none;
-		border-top: 1px solid transparent;
+		border: 1px solid;
+		border-color: rgba(255, 255, 255, 0.1);
+		border-color: var(--header-border-color);
 	}
 
 	.main-navigation ul ul li:hover > ul,
@@ -3265,7 +3275,7 @@ h1.is-style-gt-heading {
 
 	.main-navigation ul .menu-item-has-children > a:hover > .icon,
 	.main-navigation ul .page_item_has_children > a:hover > .icon {
-		fill: #0068a0;
+		fill: rgba(255, 255, 255, 0.5);
 		fill: var(--header-hover-color);
 	}
 

@@ -33,8 +33,9 @@
 		border-bottom: none;
 	}
 
-	.main-navigation ul a {
-		padding: 2rem 1rem;
+	.main-navigation > ul > li > a {
+		padding: 1.25rem;
+		border: none;
 	}
 
 	/* Dropdown Menus */
@@ -45,7 +46,8 @@
 		z-index: 99999;
 		padding: 0;
 		background: none;
-		border-top: 1px solid transparent;
+		border: 1px solid;
+		@include border-color(--header-border-color);
 	}
 
 	.main-navigation ul ul li:hover > ul,

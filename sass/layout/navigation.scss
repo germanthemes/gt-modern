@@ -15,7 +15,7 @@
 }
 
 .main-navigation > ul {
-	margin: 1rem 0;
+	margin: 1.5rem 0;
 }
 
 /* Hide the menu on small screens when JavaScript is available. */
@@ -39,8 +39,10 @@
 .main-navigation ul a {
 	display: block;
 	margin: 0;
-	padding: 1rem 0;
+	padding: 1rem;
 	text-decoration: none;
+	border-top: 1px solid;
+	@include border-color(--header-border-color);
 }
 
 .main-navigation ul a:link,
