@@ -1,20 +1,21 @@
 // Theme Width.
-$themeWidth: 100%;
+$themeWidth: 1440px;
 
 // Content Width.
-$contentWidth: 800px;
-$wideBlockWidth: 1200px;
+$contentWidth: 880px;
+$wideBlockWidth: 1120px;
 
 // Fullwidth Template.
-$contentFullwidth: 1200px;
+$contentFullwidth: 1280px;
 $wideBlockFullwidth: 1440px;
 
 // Theme Colors
 $themeColors: (
-	--primary-color              : #e34333,
-	--secondary-color            : #c92919,
-	--accent-color               : #33a2e3,
-	--highlight-color            : #7aca56,
+	--primary-color              : #0068a0,
+	--secondary-color            : #084868,
+	--tertiary-color             : #00b0f8,
+	--accent-color               : #ffed62,
+	--highlight-color            : #f33e3e,
 	--light-gray-color           : #f0f0f0,
 	--gray-color                 : #808080,
 	--dark-gray-color            : #303030,
@@ -25,26 +26,27 @@ $themeColors: (
 	--medium-background-color    : rgba(0, 0, 0, 0.15),
 	--light-border-color         : rgba(0, 0, 0, 0.1),
 	--medium-border-color        : rgba(0, 0, 0, 0.3),
-	--link-color                 : #e34333,
-	--link-hover-color           : #c92919,
-	--button-color               : #e34333,
+	--page-background-color      : #fff,
+	--link-color                 : #0068a0,
+	--link-hover-color           : #084868,
+	--button-color               : #0068a0,
 	--button-text-color          : #fff,
-	--button-hover-color         : #c92919,
+	--button-hover-color         : #084868,
 	--button-text-hover-color    : #fff,
-	--header-bar-color           : #fff,
-	--header-bar-text-color      : #303030,
-	--header-bar-icon-color      : #e34333,
+	--header-bar-color           : #202020,
+	--header-bar-text-color      : #fff,
+	--header-bar-icon-color      : #0068a0,
 	--header-bar-hover-color     : rgba(0, 0, 0, 0.5),
-	--header-color               : #c92919,
+	--header-color               : #202020,
 	--header-text-color          : #fff,
-	--header-hover-color         : rgba(255, 255, 255, 0.5),
-	--title-color                : #303030,
-	--title-hover-color          : #e34333,
-	--title-border-color         : #e34333,
+	--header-hover-color         : #0068a0,
+	--title-color                : #202020,
+	--title-hover-color          : #0068a0,
+	--title-border-color         : #0068a0,
 	--post-meta-color            : rgba(0, 0, 0, 0.5),
 	--widget-title-color         : #303030,
-	--widget-title-hover-color   : #e34333,
-	--widget-title-border-color  : #e34333,
+	--widget-title-hover-color   : #0068a0,
+	--widget-title-border-color  : #0068a0,
 	--widget-border-color        : rgba(0, 0, 0, 0.1),
 	--comments-border-color      : rgba(0, 0, 0, 0.1),
 	--footer-background-color    : #202020,
@@ -66,7 +68,7 @@ $themeFonts: (
 // Font Weight.
 $fontWeight: (
 	--title-font-weight : bold,
-	--navi-font-weight  : bold,
+	--navi-font-weight  : normal,
 );
 
 // Text Transform.

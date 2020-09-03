@@ -13,6 +13,7 @@
 	@include variable(--medium-background-color, $themeColors);
 	@include variable(--light-border-color, $themeColors);
 	@include variable(--medium-border-color, $themeColors);
+	@include variable(--page-background-color, $themeColors);
 	@include variable(--link-color, $themeColors);
 	@include variable(--link-hover-color, $themeColors);
 	@include variable(--button-color, $themeColors);
