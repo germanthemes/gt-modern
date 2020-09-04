@@ -29,7 +29,6 @@
 	@include variable(--header-border-color, $themeColors);
 	@include variable(--title-color, $themeColors);
 	@include variable(--title-hover-color, $themeColors);
-	@include variable(--post-meta-color, $themeColors);
 	@include variable(--widget-title-color, $themeColors);
 	@include variable(--widget-background-color, $themeColors);
 	@include variable(--comments-border-color, $themeColors);

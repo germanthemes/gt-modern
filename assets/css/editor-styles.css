@@ -8,8 +8,8 @@
 # - Variables
 --------------------------------------------------------------*/
 :root {
-	--primary-color: #0068a0;
-	--secondary-color: #084868;
+	--primary-color: #0890d0;
+	--secondary-color: #0068a0;
 	--accent-color: #00b0f8;
 	--highlight-color: #f33e3e;
 	--light-gray-color: #ebebeb;
@@ -23,8 +23,8 @@
 	--light-border-color: rgba(0, 0, 0, 0.1);
 	--medium-border-color: rgba(0, 0, 0, 0.3);
 	--page-background-color: #fff;
-	--link-color: #0068a0;
-	--link-hover-color: #084868;
+	--link-color: #0890d0;
+	--link-hover-color: #0068a0;
 	--button-color: #202020;
 	--button-text-color: #fff;
 	--button-hover-color: #606060;
@@ -38,7 +38,6 @@
 	--header-border-color: rgba(255, 255, 255, 0.1);
 	--title-color: #202020;
 	--title-hover-color: #606060;
-	--post-meta-color: rgba(0, 0, 0, 0.5);
 	--widget-title-color: #202020;
 	--widget-background-color: #ebebeb;
 	--comments-border-color: rgba(0, 0, 0, 0.1);
@@ -220,7 +219,7 @@ body.gt-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-post-
 }
 
 .editor-styles-wrapper a {
-	color: #0068a0;
+	color: #0890d0;
 	color: var(--link-color);
 }
 
@@ -734,12 +733,12 @@ p.has-background {
 
 /* Block Text Colors */
 .has-primary-color {
-	color: #0068a0;
+	color: #0890d0;
 	color: var(--primary-color);
 }
 
 .has-secondary-color {
-	color: #084868;
+	color: #0068a0;
 	color: var(--secondary-color);
 }
 
@@ -778,12 +777,12 @@ p.has-background {
 
 /* Block Background Colors */
 .has-primary-background-color {
-	background-color: #0068a0;
+	background-color: #0890d0;
 	background-color: var(--primary-color);
 }
 
 .has-secondary-background-color {
-	background-color: #084868;
+	background-color: #0068a0;
 	background-color: var(--secondary-color);
 }
 

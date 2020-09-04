@@ -4,8 +4,7 @@
 
 .entry-meta,
 .entry-tags {
-	@include color(--post-meta-color);
-	@include font-size(14);
+	@include font-size(15);
 	clear: both;
 }
 
