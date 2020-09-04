@@ -87,9 +87,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--footer-link-color: rgba(255, 255, 255, 0.95);
 	--footer-link-hover-color: rgba(255, 255, 255, 0.5);
 	--footer-border-color: rgba(255, 255, 255, 0.1);
-	--text-font: "Roboto", arial, helvetica, sans-serif;
-	--title-font: "Roboto", arial, helvetica, sans-serif;
-	--navi-font: "Roboto", arial, helvetica, sans-serif;
+	--text-font: "Barlow", arial, helvetica, sans-serif;
+	--title-font: "Barlow", arial, helvetica, sans-serif;
+	--navi-font: "Barlow", arial, helvetica, sans-serif;
 	--title-font-weight: bold;
 	--navi-font-weight: normal;
 	--title-text-transform: none;
@@ -329,7 +329,7 @@ textarea {
 	color: var(--text-color);
 	font-size: 16px;
 	font-size: 1rem;
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--text-font);
 	line-height: 1.75;
 	line-height: var(--text-line-height);
@@ -344,7 +344,7 @@ h6 {
 	clear: both;
 	margin-top: 1.5rem;
 	margin-bottom: 1rem;
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--title-font);
 	font-weight: bold;
 	font-weight: var(--title-font-weight);
@@ -873,7 +873,7 @@ img.custom-logo {
 	text-decoration: none;
 	font-size: 24px;
 	font-size: 1.5rem;
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--title-font);
 	font-weight: bold;
 	font-weight: var(--title-font-weight);
@@ -958,7 +958,7 @@ body.site-description-hidden .site-description {
 	list-style: none;
 	font-size: 17px;
 	font-size: 1.0625rem;
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--navi-font);
 	font-weight: normal;
 	font-weight: var(--navi-font-weight);
@@ -1051,7 +1051,7 @@ body.site-description-hidden .site-description {
 	text-decoration: none;
 	font-size: 17px;
 	font-size: 1.0625rem;
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--navi-font);
 	font-weight: normal;
 	font-weight: var(--navi-font-weight);
@@ -1371,7 +1371,7 @@ body.site-description-hidden .site-description {
 	margin-right: 0.5rem;
 	font-size: 17px;
 	font-size: 1.0625rem;
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--navi-font);
 	font-weight: normal;
 	font-weight: var(--navi-font-weight);
@@ -1513,7 +1513,7 @@ body.site-description-hidden .site-description {
 	color: var(--widget-title-color);
 	font-size: 22px;
 	font-size: 1.375rem;
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--title-font);
 	font-weight: bold;
 	font-weight: var(--title-font-weight);
@@ -1673,7 +1673,7 @@ body.site-description-hidden .site-description {
 	word-wrap: break-word;
 	font-size: 28px;
 	font-size: 1.75rem;
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--title-font);
 	font-weight: bold;
 	font-weight: var(--title-font-weight);
@@ -1871,7 +1871,7 @@ body.tags-hidden.single-post .type-post .entry-tags {
 	word-wrap: break-word;
 	font-size: 22px;
 	font-size: 1.375rem;
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--title-font);
 	font-weight: bold;
 	font-weight: var(--title-font-weight);
@@ -2349,7 +2349,7 @@ p.has-background {
 
 .wp-block-quote.is-style-large cite {
 	text-align: inherit;
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--text-font);
 }
 
@@ -2381,7 +2381,7 @@ p.has-background {
 .wp-block-pullquote blockquote cite {
 	color: #151515;
 	color: var(--text-color);
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--text-font);
 	font-style: normal;
 }
@@ -2661,7 +2661,7 @@ p.has-background {
 	margin: 0 0 1rem;
 	padding: 0;
 	list-style: none;
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--navi-font);
 	font-weight: normal;
 	font-weight: var(--navi-font-weight);

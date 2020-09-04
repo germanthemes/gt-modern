@@ -66,9 +66,9 @@ Copyright: 2012-2015 Nicolas Gallagher and Jonathan Neal
 License: Licensed under MIT license (https://github.com/Keyamoon/svgxuse/blob/master/license)
 Copyright: 2017 IcoMoon.io
 
-6. Roboto Font - https://fonts.google.com/specimen/Roboto
-License: Distributed under the terms of the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
-Copyright: Christian Robertson
+6. Barlow Font - https://fonts.google.com/specimen/Barlow
+License: Distributed under the terms of the Open Font License (http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
+Copyright: Jeremy Tribby
 
 7. The photo used in screenshot.png is from Rebecca Li: https://unsplash.com/photos/nJ5hINhz6Fs
 License: Distributed under the terms of the Unsplash License (https://unsplash.com/license)

@@ -152,8 +152,8 @@ class GT_Modern_Custom_Fonts {
 	static function remove_default_theme_fonts() {
 		$selected_fonts = self::get_selected_fonts();
 
-		// Remove default Roboto font if not needed or GT Local Font plugin already loads it.
-		if ( ( ! in_array( 'Roboto', $selected_fonts ) && ! is_customize_preview() ) or class_exists( 'GermanThemes_Local_Fonts' ) ) {
+		// Remove default Barlow font if not needed or GT Local Font plugin already loads it.
+		if ( ( ! in_array( 'Barlow', $selected_fonts ) && ! is_customize_preview() ) or class_exists( 'GermanThemes_Local_Fonts' ) ) {
 			wp_dequeue_style( 'gt-modern-theme-fonts' );
 		}
 	}
@@ -184,7 +184,7 @@ class GT_Modern_Custom_Fonts {
 			'Helvetica'                   => 'Helvetica',
 			'Impact'                      => 'Impact',
 			'Palatino, Palatino Linotype' => 'Palatino',
-			'Roboto'                      => 'Roboto', // default font from /assets/css/theme-fonts.css
+			'Barlow'                      => 'Barlow', // default font from /assets/css/theme-fonts.css
 			'SystemFontStack'             => 'System Font Stack',
 			'Tahoma'                      => 'Tahoma',
 			'Trebuchet MS, Trebuchet'     => 'Trebuchet MS',

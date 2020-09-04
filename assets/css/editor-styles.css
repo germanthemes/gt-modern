@@ -47,9 +47,9 @@
 	--footer-link-color: rgba(255, 255, 255, 0.95);
 	--footer-link-hover-color: rgba(255, 255, 255, 0.5);
 	--footer-border-color: rgba(255, 255, 255, 0.1);
-	--text-font: "Roboto", arial, helvetica, sans-serif;
-	--title-font: "Roboto", arial, helvetica, sans-serif;
-	--navi-font: "Roboto", arial, helvetica, sans-serif;
+	--text-font: "Barlow", arial, helvetica, sans-serif;
+	--title-font: "Barlow", arial, helvetica, sans-serif;
+	--navi-font: "Barlow", arial, helvetica, sans-serif;
 	--title-font-weight: bold;
 	--navi-font-weight: normal;
 	--title-text-transform: none;
@@ -92,7 +92,7 @@
 	color: var(--title-color);
 	font-size: 28px;
 	font-size: 1.75rem;
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--title-font);
 	font-weight: bold;
 	font-weight: var(--title-font-weight);
@@ -166,7 +166,7 @@ body.gt-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-post-
 .editor-styles-wrapper > * {
 	color: #151515;
 	color: var(--text-color);
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--text-font);
 	font-size: 17px;
 	font-size: 1.0625rem;
@@ -175,7 +175,7 @@ body.gt-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-post-
 }
 
 .editor-styles-wrapper .wp-block p {
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--text-font);
 	font-size: 16px;
 	font-size: 1rem;
@@ -238,7 +238,7 @@ body.gt-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-post-
 	clear: both;
 	margin-top: 1.5rem;
 	margin-bottom: 1rem;
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--title-font);
 	line-height: 1.25;
 	line-height: var(--title-line-height);
@@ -544,7 +544,7 @@ p.has-background {
 
 .wp-block-quote.is-style-large cite {
 	text-align: inherit;
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--text-font);
 }
 
@@ -576,7 +576,7 @@ p.has-background {
 .wp-block-pullquote blockquote cite {
 	color: #151515;
 	color: var(--text-color);
-	font-family: "Roboto", arial, helvetica, sans-serif;
+	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--text-font);
 	font-style: normal;
 }
