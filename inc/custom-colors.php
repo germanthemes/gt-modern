@@ -56,26 +56,6 @@ class GT_Modern_Custom_Colors {
 		// Color Variables.
 		$color_variables = '';
 
-		// Set Background Color.
-		$background_color = get_theme_mod( 'background_color', 'ffffff' );
-
-		if ( '' !== $background_color && 'ffffff' !== $background_color ) {
-			$color_variables .= '--body-background-color: #' . $background_color . ';';
-
-			// Set Text Color if dark background color was chosen.
-			if ( self::is_color_dark( get_theme_mod( 'background_color' ) ) ) {
-				$color_variables .= '--text-color: #ffffff;';
-				$color_variables .= '--light-text-color: rgba(255, 255, 255, 0.5);';
-				$color_variables .= '--light-background-color: rgba(255, 255, 255, 0.05);';
-				$color_variables .= '--medium-background-color: rgba(255, 255, 255, 0.15);';
-				$color_variables .= '--post-meta-color: rgba(255, 255, 255, 0.5);';
-				$color_variables .= '--light-border-color: rgba(255, 255, 255, 0.1);';
-				$color_variables .= '--medium-border-color: rgba(255, 255, 255, 0.3);';
-				$color_variables .= '--widget-border-color: rgba(255, 255, 255, 0.1);';
-				$color_variables .= '--comments-border-color: rgba(255, 255, 255, 0.1);';
-			}
-		}
-
 		// Set Primary Color.
 		if ( $theme_options['primary_color'] !== $default['primary_color'] ) {
 			$color_variables .= '--primary-color: ' . $theme_options['primary_color'] . ';';
@@ -116,9 +96,9 @@ class GT_Modern_Custom_Colors {
 			$color_variables .= '--header-bar-color: ' . $theme_options['header_bar_color'] . ';';
 
 			// Check if a dark background color was chosen.
-			if ( self::is_color_dark( $theme_options['header_bar_color'] ) ) {
-				$color_variables .= '--header-bar-text-color :#ffffff;';
-				$color_variables .= '--header-bar-hover-color: rgba(255, 255, 255, 0.5);';
+			if ( self::is_color_light( $theme_options['header_bar_color'] ) ) {
+				$color_variables .= '--header-bar-text-color: rgba(0, 0, 0, 0.95);';
+				$color_variables .= '--header-bar-border-color: rgba(0, 0, 0, 0.1);';
 			}
 		}
 
@@ -135,6 +115,7 @@ class GT_Modern_Custom_Colors {
 			if ( self::is_color_light( $theme_options['header_color'] ) ) {
 				$color_variables .= '--header-text-color: rgba(0, 0, 0, 0.95);';
 				$color_variables .= '--header-hover-color: rgba(0, 0, 0, 0.5);';
+				$color_variables .= '--header-border-color: rgba(0, 0, 0, 0.1);';
 			}
 		}
 

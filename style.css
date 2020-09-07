@@ -55,7 +55,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--light-gray-color: #ebebeb;
 	--gray-color: #606060;
 	--dark-gray-color: #202020;
-	--body-background-color: #ffffff;
 	--text-color: #151515;
 	--light-text-color: rgba(0, 0, 0, 0.5);
 	--light-background-color: rgba(0, 0, 0, 0.05);
@@ -71,7 +70,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--button-text-hover-color: #fff;
 	--header-bar-color: #202020;
 	--header-bar-text-color: #fff;
-	--header-bar-icon-color: rgba(255, 255, 255, 0.5);
+	--header-bar-icon-color: #606060;
+	--header-bar-border-color: rgba(255, 255, 255, 0.1);
 	--header-color: #202020;
 	--header-text-color: #fff;
 	--header-hover-color: rgba(255, 255, 255, 0.5);
@@ -80,7 +80,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--title-hover-color: #606060;
 	--widget-title-color: #202020;
 	--widget-background-color: #ebebeb;
-	--comments-border-color: rgba(0, 0, 0, 0.1);
 	--footer-background-color: #202020;
 	--footer-text-color: rgba(255, 255, 255, 0.5);
 	--footer-link-color: rgba(255, 255, 255, 0.95);
@@ -465,7 +464,7 @@ see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-pr
 }
 
 body {
-	background: #303030; /* Fallback for when there is no custom background color defined. */
+	background: #cccccc; /* Fallback for when there is no custom background color defined. */
 }
 
 blockquote {
@@ -604,7 +603,7 @@ input[type="submit"] {
 	background-color: #202020;
 	background-color: var(--button-color);
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 15px;
 	font-size: 0.9375rem;
 }
@@ -1237,7 +1236,7 @@ body.site-description-hidden .site-description {
 
 .header-bar-social-icons.social-icons-nav .social-icons-menu li a:hover,
 .header-bar-social-icons.social-icons-nav .social-icons-menu li a:active {
-	color: rgba(255, 255, 255, 0.5);
+	color: #606060;
 	color: var(--header-bar-icon-color);
 }
 
@@ -1286,7 +1285,7 @@ body.site-description-hidden .site-description {
 	background-color: var(--header-bar-color);
 	border-bottom: 1px solid;
 	border-color: rgba(255, 255, 255, 0.1);
-	border-color: var(--header-border-color);
+	border-color: var(--header-bar-border-color);
 }
 
 .header-bar-main {
@@ -1330,7 +1329,7 @@ body.site-description-hidden .site-description {
 	margin: 0 0.25rem 0 0;
 	width: 18px;
 	height: 18px;
-	fill: rgba(255, 255, 255, 0.5);
+	fill: #606060;
 	fill: var(--header-bar-icon-color);
 }
 
@@ -1888,7 +1887,7 @@ body.tags-hidden.single-post .type-post .entry-tags {
 	font-size: 1rem;
 	border-bottom: 1px solid;
 	border-color: rgba(0, 0, 0, 0.1);
-	border-color: var(--comments-border-color);
+	border-color: var(--light-border-color);
 }
 
 .comment .comment-body {
@@ -1962,7 +1961,7 @@ body.tags-hidden.single-post .type-post .entry-tags {
 	padding: 1.5rem 0 0;
 	border-top: 1px solid;
 	border-color: rgba(0, 0, 0, 0.1);
-	border-color: var(--comments-border-color);
+	border-color: var(--light-border-color);
 	border-bottom: none;
 }
 
@@ -1999,7 +1998,7 @@ body.tags-hidden.single-post .type-post .entry-tags {
 	padding: 1.5rem 0 0;
 	border-top: 1px solid;
 	border-color: rgba(0, 0, 0, 0.1);
-	border-color: var(--comments-border-color);
+	border-color: var(--light-border-color);
 }
 
 /* Comment Pagination */
@@ -2780,16 +2779,14 @@ p.has-background {
 ## - Media Queries for Typography
 --------------------------------------------------------------*/
 @media only screen and (min-width: 320px) {
-	.entry-title,
-	h1.is-style-gt-heading {
+	.entry-title {
 		font-size: 30px;
 		font-size: 1.875rem;
 	}
 }
 
 @media only screen and (min-width: 640px) {
-	.entry-title,
-	h1.is-style-gt-heading {
+	.entry-title {
 		font-size: 32px;
 		font-size: 2rem;
 	}
@@ -2819,8 +2816,7 @@ p.has-background {
 		font-size: 0.875rem;
 	}
 
-	.entry-title,
-	h1.is-style-gt-heading {
+	.entry-title {
 		font-size: 36px;
 		font-size: 2.25rem;
 	}
@@ -2832,8 +2828,7 @@ p.has-background {
 }
 
 @media only screen and (min-width: 1280px) {
-	.entry-title,
-	h1.is-style-gt-heading {
+	.entry-title {
 		font-size: 40px;
 		font-size: 2.5rem;
 	}

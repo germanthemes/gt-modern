@@ -33,7 +33,7 @@
 	padding: 0 0 1.5rem;
 	@include font-size(16);
 	border-bottom: 1px solid;
-	@include border-color(--comments-border-color);
+	@include border-color(--light-border-color);
 }
 
 .comment .comment-body {
@@ -104,7 +104,7 @@
 	margin: 0;
 	padding: 1.5rem 0 0;
 	border-top: 1px solid;
-	@include border-color(--comments-border-color);
+	@include border-color(--light-border-color);
 	border-bottom: none;
 }
 
@@ -137,7 +137,7 @@
 	margin: 1.5rem 0 0;
 	padding: 1.5rem 0 0;
 	border-top: 1px solid;
-	@include border-color(--comments-border-color);
+	@include border-color(--light-border-color);
 }
 
 /* Comment Pagination */
