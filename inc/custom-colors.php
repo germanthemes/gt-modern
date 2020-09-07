@@ -91,32 +91,27 @@ class GT_Modern_Custom_Colors {
 			$color_variables .= '--dark-gray-color: ' . $theme_options['dark_gray_color'] . ';';
 		}
 
-		// Set Header Bar Color.
-		if ( $theme_options['header_bar_color'] !== $default['header_bar_color'] ) {
-			$color_variables .= '--header-bar-color: ' . $theme_options['header_bar_color'] . ';';
-
-			// Check if a dark background color was chosen.
-			if ( self::is_color_light( $theme_options['header_bar_color'] ) ) {
-				$color_variables .= '--header-bar-text-color: rgba(0, 0, 0, 0.95);';
-				$color_variables .= '--header-bar-border-color: rgba(0, 0, 0, 0.1);';
-			}
-		}
-
-		// Set Header Bar Color.
-		if ( $theme_options['header_bar_icon_color'] !== $default['header_bar_icon_color'] ) {
-			$color_variables .= '--header-bar-icon-color: ' . $theme_options['header_bar_icon_color'] . ';';
-		}
-
 		// Set Header Color.
 		if ( $theme_options['header_color'] !== $default['header_color'] ) {
 			$color_variables .= '--header-color: ' . $theme_options['header_color'] . ';';
+			$color_variables .= '--header-bar-color: ' . $theme_options['header_color'] . ';';
 
 			// Check if a light background color was chosen.
 			if ( self::is_color_light( $theme_options['header_color'] ) ) {
-				$color_variables .= '--header-text-color: rgba(0, 0, 0, 0.95);';
-				$color_variables .= '--header-hover-color: rgba(0, 0, 0, 0.5);';
 				$color_variables .= '--header-border-color: rgba(0, 0, 0, 0.1);';
 			}
+		}
+
+		// Set Header Text Color.
+		if ( $theme_options['header_text_color'] !== $default['header_text_color'] ) {
+			$color_variables .= '--header-text-color: ' . $theme_options['header_text_color'] . ';';
+			$color_variables .= '--header-bar-text-color: ' . $theme_options['header_text_color'] . ';';
+		}
+
+		// Set Header Hover Color.
+		if ( $theme_options['header_hover_color'] !== $default['header_hover_color'] ) {
+			$color_variables .= '--header-hover-color: ' . $theme_options['header_hover_color'] . ';';
+			$color_variables .= '--header-bar-hover-color: ' . $theme_options['header_hover_color'] . ';';
 		}
 
 		// Set Title Color.

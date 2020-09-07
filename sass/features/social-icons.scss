@@ -72,7 +72,7 @@
 
 .header-bar-social-icons.social-icons-nav .social-icons-menu li a:hover,
 .header-bar-social-icons.social-icons-nav .social-icons-menu li a:active {
-	@include color(--header-bar-icon-color);
+	@include color(--header-bar-hover-color);
 }
 
 .header-bar-social-icons.social-icons-nav .social-icons-menu li a .icon {

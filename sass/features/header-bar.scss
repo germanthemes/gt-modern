@@ -3,7 +3,7 @@
 	@include color(--header-bar-text-color);
 	@include background(--header-bar-color);
 	border-bottom: 1px solid;
-	@include border-color(--header-bar-border-color);
+	@include border-color(--header-border-color);
 }
 
 .header-bar-main {
@@ -41,7 +41,7 @@
 			margin: 0 0.25rem 0 0;
 			width: 18px;
 			height: 18px;
-			@include fill(--header-bar-icon-color);
+			@include fill(--header-bar-text-color);
 		}
 
 		.icon-mail {

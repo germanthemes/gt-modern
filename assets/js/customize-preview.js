@@ -187,51 +187,36 @@
 		} );
 	} );
 
-	/* Header Bar Color Option */
-	wp.customize( 'gt_modern_theme_options[header_bar_color]', function( value ) {
-		value.bind( function( newval ) {
-			var text_color, border_color;
-
-			if( isColorLight( newval ) ) {
-				text_color = 'rgba(0, 0, 0, 0.95)';
-				border_color = 'rgba(0, 0, 0, 0.1)';
-			} else {
-				text_color = '#ffffff';
-				border_color = 'rgba(255, 255, 255, 0.1)';
-			}
-
-			document.documentElement.style.setProperty( '--header-bar-color', newval );
-			document.documentElement.style.setProperty( '--header-bar-text-color', text_color );
-			document.documentElement.style.setProperty( '--header-bar-border-color', border_color );
-		} );
-	} );
-
-	/* Header Bar Icon Color Option */
-	wp.customize( 'gt_modern_theme_options[header_bar_icon_color]', function( value ) {
-		value.bind( function( newval ) {
-			document.documentElement.style.setProperty( '--header-bar-icon-color', newval );
-		} );
-	} );
-
 	/* Header Color Option */
 	wp.customize( 'gt_modern_theme_options[header_color]', function( value ) {
 		value.bind( function( newval ) {
-			var text_color, hover_color, border_color;
+			var border_color;
 
 			if( isColorLight( newval ) ) {
-				text_color = 'rgba(0, 0, 0, 0.95)';
-				hover_color = 'rgba(0, 0, 0, 0.5)';
 				border_color = 'rgba(0, 0, 0, 0.1)';
 			} else {
-				text_color = '#ffffff';
-				hover_color = 'rgba(255, 255, 255, 0.5)';
 				border_color = 'rgba(255, 255, 255, 0.1)';
 			}
 
 			document.documentElement.style.setProperty( '--header-color', newval );
-			document.documentElement.style.setProperty( '--header-text-color', text_color );
-			document.documentElement.style.setProperty( '--header-hover-color', hover_color );
+			document.documentElement.style.setProperty( '--header-bar-color', newval );
 			document.documentElement.style.setProperty( '--header-border-color', border_color );
+		} );
+	} );
+
+	/* Header Text Color Option */
+	wp.customize( 'gt_modern_theme_options[header_text_color]', function( value ) {
+		value.bind( function( newval ) {
+			document.documentElement.style.setProperty( '--header-text-color', newval );
+			document.documentElement.style.setProperty( '--header-bar-text-color', newval );
+		} );
+	} );
+
+	/* Header Hover Color Option */
+	wp.customize( 'gt_modern_theme_options[header_hover_color]', function( value ) {
+		value.bind( function( newval ) {
+			document.documentElement.style.setProperty( '--header-hover-color', newval );
+			document.documentElement.style.setProperty( '--header-bar-hover-color', newval );
 		} );
 	} );
 

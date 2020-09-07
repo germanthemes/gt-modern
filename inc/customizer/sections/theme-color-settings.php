@@ -22,39 +22,7 @@ function gt_modern_customize_register_theme_color_settings( $wp_customize ) {
 	// Get Default Colors from settings.
 	$default = gt_modern_default_options();
 
-	// Add Header Bar Color setting.
-	$wp_customize->add_setting( 'gt_modern_theme_options[header_bar_color]', array(
-		'default'           => $default['header_bar_color'],
-		'type'              => 'option',
-		'transport'         => 'postMessage',
-		'sanitize_callback' => 'sanitize_hex_color',
-	) );
-	$wp_customize->add_control( new WP_Customize_Color_Control(
-		$wp_customize, 'gt_modern_theme_options[header_bar_color]', array(
-			'label'    => esc_html_x( 'Header Bar', 'Color Option', 'gt-modern' ),
-			'section'  => 'gt_modern_section_theme_colors',
-			'settings' => 'gt_modern_theme_options[header_bar_color]',
-			'priority' => 10,
-		)
-	) );
-
-	// Add Header Bar Icons setting.
-	$wp_customize->add_setting( 'gt_modern_theme_options[header_bar_icon_color]', array(
-		'default'           => $default['header_bar_icon_color'],
-		'type'              => 'option',
-		'transport'         => 'postMessage',
-		'sanitize_callback' => 'sanitize_hex_color',
-	) );
-	$wp_customize->add_control( new WP_Customize_Color_Control(
-		$wp_customize, 'gt_modern_theme_options[header_bar_icon_color]', array(
-			'label'    => esc_html_x( 'Header Bar Icons', 'Color Option', 'gt-modern' ),
-			'section'  => 'gt_modern_section_theme_colors',
-			'settings' => 'gt_modern_theme_options[header_bar_icon_color]',
-			'priority' => 20,
-		)
-	) );
-
-	// Add Header Color setting.
+	// Add Header Background Color setting.
 	$wp_customize->add_setting( 'gt_modern_theme_options[header_color]', array(
 		'default'           => $default['header_color'],
 		'type'              => 'option',
@@ -63,9 +31,41 @@ function gt_modern_customize_register_theme_color_settings( $wp_customize ) {
 	) );
 	$wp_customize->add_control( new WP_Customize_Color_Control(
 		$wp_customize, 'gt_modern_theme_options[header_color]', array(
-			'label'    => esc_html_x( 'Header', 'Color Option', 'gt-modern' ),
+			'label'    => esc_html_x( 'Header Background', 'Color Option', 'gt-modern' ),
 			'section'  => 'gt_modern_section_theme_colors',
 			'settings' => 'gt_modern_theme_options[header_color]',
+			'priority' => 10,
+		)
+	) );
+
+	// Add Header Text Color setting.
+	$wp_customize->add_setting( 'gt_modern_theme_options[header_text_color]', array(
+		'default'           => $default['header_text_color'],
+		'type'              => 'option',
+		'transport'         => 'postMessage',
+		'sanitize_callback' => 'sanitize_hex_color',
+	) );
+	$wp_customize->add_control( new WP_Customize_Color_Control(
+		$wp_customize, 'gt_modern_theme_options[header_text_color]', array(
+			'label'    => esc_html_x( 'Header Text', 'Color Option', 'gt-modern' ),
+			'section'  => 'gt_modern_section_theme_colors',
+			'settings' => 'gt_modern_theme_options[header_text_color]',
+			'priority' => 20,
+		)
+	) );
+
+	// Add Header Hover Color setting.
+	$wp_customize->add_setting( 'gt_modern_theme_options[header_hover_color]', array(
+		'default'           => $default['header_hover_color'],
+		'type'              => 'option',
+		'transport'         => 'postMessage',
+		'sanitize_callback' => 'sanitize_hex_color',
+	) );
+	$wp_customize->add_control( new WP_Customize_Color_Control(
+		$wp_customize, 'gt_modern_theme_options[header_hover_color]', array(
+			'label'    => esc_html_x( 'Header Hover', 'Color Option', 'gt-modern' ),
+			'section'  => 'gt_modern_section_theme_colors',
+			'settings' => 'gt_modern_theme_options[header_hover_color]',
 			'priority' => 30,
 		)
 	) );

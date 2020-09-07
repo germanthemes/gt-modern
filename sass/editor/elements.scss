@@ -1,7 +1,6 @@
 /* Typography */
 .editor-styles-wrapper {
 	@include color(--text-color);
-	@include background(--body-background-color);
 }
 
 .editor-styles-wrapper > * {
