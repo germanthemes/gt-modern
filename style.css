@@ -762,8 +762,7 @@ textarea {
 }
 
 .site-header,
-.site-content,
-.site-footer {
+.site-content {
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
 }
@@ -2556,8 +2555,6 @@ p.has-background {
 # - Footer
 --------------------------------------------------------------*/
 .site-footer {
-	padding-top: 1.5rem;
-	padding-bottom: 1px;
 	font-size: 17px;
 	font-size: 1.0625rem;
 	color: rgba(255, 255, 255, 0.5);
@@ -2585,8 +2582,8 @@ p.has-background {
 .site-footer input[type="search"],
 .site-footer input[type="submit"],
 .site-footer textarea {
-	border: 2px solid rgba(255, 255, 255, 0.1);
-	border: 2px solid var(--footer-border-color);
+	border-color: rgba(255, 255, 255, 0.1);
+	border-color: var(--footer-border-color);
 	color: rgba(255, 255, 255, 0.5);
 	color: var(--footer-link-hover-color);
 }
@@ -2605,8 +2602,10 @@ p.has-background {
 .site-footer input[type="button"],
 .site-footer input[type="reset"],
 .site-footer input[type="submit"] {
-	color: rgba(255, 255, 255, 0.5);
-	color: var(--footer-link-hover-color);
+	color: #202020;
+	color: var(--footer-background-color);
+	background-color: rgba(255, 255, 255, 0.95);
+	background-color: var(--footer-link-color);
 }
 
 .site-footer button:hover,
@@ -2621,14 +2620,15 @@ p.has-background {
 .site-footer input[type="button"]:active,
 .site-footer input[type="reset"]:active,
 .site-footer input[type="submit"]:active {
-	color: rgba(255, 255, 255, 0.1);
-	color: var(--footer-border-color);
+	color: #202020;
+	color: var(--footer-background-color);
+	background-color: rgba(255, 255, 255, 0.5);
+	background-color: var(--footer-link-hover-color);
 }
 
 /* Footer Navigation */
 .footer-menus-inner {
-	padding-bottom: 1.25rem;
-	margin-bottom: 1.25rem;
+	padding: 1.5rem;
 	border-bottom: 1px solid;
 	border-color: rgba(255, 255, 255, 0.1);
 	border-color: var(--footer-border-color);
@@ -2686,7 +2686,7 @@ p.has-background {
 
 /* Footer Widgets */
 .footer-widgets {
-	padding-top: 0.5rem;
+	padding: 1.5rem 1.5rem 0;
 }
 
 .footer-widgets .widget {
@@ -2708,14 +2708,16 @@ p.has-background {
 
 /* Footer Copyright */
 .footer-copyright {
-	margin-bottom: 1.25rem;
-	padding-top: 1.25rem;
+	padding: 1rem;
 	border-top: 1px solid;
 	border-color: rgba(255, 255, 255, 0.1);
 	border-color: var(--footer-border-color);
+	font-size: 14px;
+	font-size: 0.875rem;
 }
 
-.footer-copyright .widget {
+.footer-copyright .widget,
+.footer-copyright .widget p {
 	margin: 0;
 }
 
@@ -2819,11 +2821,6 @@ p.has-background {
 		font-size: 36px;
 		font-size: 2.25rem;
 	}
-
-	.footer-widgets .widget-title {
-		font-size: 22px;
-		font-size: 1.375rem;
-	}
 }
 
 @media only screen and (min-width: 1280px) {
@@ -2862,8 +2859,7 @@ p.has-background {
 
 @media only screen and (min-width: 640px) {
 	.site-header,
-	.site-content,
-	.site-footer {
+	.site-content {
 		padding-left: 2rem;
 		padding-right: 2rem;
 	}
@@ -2893,8 +2889,7 @@ p.has-background {
 
 @media only screen and (min-width: 960px) {
 	.site-header,
-	.site-content,
-	.site-footer {
+	.site-content {
 		padding-left: 2.5rem;
 		padding-right: 2.5rem;
 	}
@@ -2934,8 +2929,7 @@ p.has-background {
 
 @media only screen and (min-width: 1120px) {
 	.site-header,
-	.site-content,
-	.site-footer {
+	.site-content {
 		padding-left: 3rem;
 		padding-right: 3rem;
 	}
@@ -2952,8 +2946,7 @@ p.has-background {
 
 @media only screen and (min-width: 1280px) {
 	.site-header,
-	.site-content,
-	.site-footer {
+	.site-content {
 		padding-left: 3.5rem;
 		padding-right: 3.5rem;
 	}
@@ -3249,13 +3242,12 @@ p.has-background {
 }
 
 @media only screen and (min-width: 640px) {
-	.site-footer {
-		padding-top: 2rem;
+	.footer-menus-inner {
+		padding: 2rem;
 	}
 
-	.footer-menus-inner {
-		padding-bottom: 1.5rem;
-		margin-bottom: 2rem;
+	.footer-widgets {
+		padding: 2rem 2rem 0;
 	}
 
 	.footer-widgets-columns {
@@ -3269,11 +3261,6 @@ p.has-background {
 	.footer-widgets .widget {
 		margin-bottom: 2rem;
 	}
-
-	.footer-copyright {
-		padding-top: 1.5rem;
-		margin-bottom: 1.5rem;
-	}
 }
 
 @media only screen and (min-width: 800px) {
@@ -3285,13 +3272,12 @@ p.has-background {
 }
 
 @media only screen and (min-width: 960px) {
-	.site-footer {
-		padding-top: 2.5rem;
+	.footer-menus-inner {
+		padding: 2.5rem;
 	}
 
-	.footer-menus-inner {
-		padding-bottom: 2rem;
-		margin-bottom: 2.5rem;
+	.footer-widgets {
+		padding: 2.5rem 2.5rem 0;
 	}
 
 	.footer-widgets-columns {
@@ -3307,8 +3293,7 @@ p.has-background {
 	}
 
 	.footer-copyright {
-		padding-top: 2rem;
-		margin-bottom: 2rem;
+		padding: 1.5rem;
 	}
 }
 
@@ -3322,15 +3307,6 @@ p.has-background {
 }
 
 @media only screen and (min-width: 1280px) {
-	.site-footer {
-		padding-top: 3rem;
-	}
-
-	.footer-menus-inner {
-		padding-bottom: 2.5rem;
-		margin-bottom: 3rem;
-	}
-
 	.footer-widgets-columns {
 		margin-right: -4rem;
 	}
@@ -3341,11 +3317,6 @@ p.has-background {
 
 	.footer-widgets .widget {
 		margin-bottom: 3rem;
-	}
-
-	.footer-copyright {
-		padding-top: 2.5rem;
-		margin-bottom: 2.5rem;
 	}
 }
 

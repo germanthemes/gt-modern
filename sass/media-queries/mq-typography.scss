@@ -33,10 +33,6 @@
 	.entry-title {
 		@include font-size(36);
 	}
-
-	.footer-widgets .widget-title {
-		@include font-size(22);
-	}
 }
 
 @media only screen and (min-width: 1280px) {

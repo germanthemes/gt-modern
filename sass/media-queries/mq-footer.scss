@@ -22,13 +22,12 @@
 }
 
 @media only screen and (min-width: 640px) {
-	.site-footer {
-		padding-top: 2rem;
+	.footer-menus-inner {
+		padding: 2rem;
 	}
 
-	.footer-menus-inner {
-		padding-bottom: 1.5rem;
-		margin-bottom: 2rem;
+	.footer-widgets {
+		padding: 2rem 2rem 0;
 	}
 
 	.footer-widgets-columns {
@@ -42,11 +41,6 @@
 	.footer-widgets .widget {
 		margin-bottom: 2rem;
 	}
-
-	.footer-copyright {
-		padding-top: 1.5rem;
-		margin-bottom: 1.5rem;
-	}
 }
 
 @media only screen and (min-width: 800px) {
@@ -58,13 +52,12 @@
 }
 
 @media only screen and (min-width: 960px) {
-	.site-footer {
-		padding-top: 2.5rem;
+	.footer-menus-inner {
+		padding: 2.5rem;
 	}
 
-	.footer-menus-inner {
-		padding-bottom: 2rem;
-		margin-bottom: 2.5rem;
+	.footer-widgets {
+		padding: 2.5rem 2.5rem 0;
 	}
 
 	.footer-widgets-columns {
@@ -80,8 +73,7 @@
 	}
 
 	.footer-copyright {
-		padding-top: 2rem;
-		margin-bottom: 2rem;
+		padding: 1.5rem;
 	}
 }
 
@@ -95,15 +87,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-	.site-footer {
-		padding-top: 3rem;
-	}
-
-	.footer-menus-inner {
-		padding-bottom: 2.5rem;
-		margin-bottom: 3rem;
-	}
-
 	.footer-widgets-columns {
 		margin-right: -4rem;
 	}
@@ -114,10 +97,5 @@
 
 	.footer-widgets .widget {
 		margin-bottom: 3rem;
-	}
-
-	.footer-copyright {
-		padding-top: 2.5rem;
-		margin-bottom: 2.5rem;
 	}
 }

@@ -1,6 +1,4 @@
 .site-footer {
-	padding-top: 1.5rem;
-	padding-bottom: 1px;
 	@include font-size(17);
 	@include color(--footer-text-color);
 	@include background(--footer-background-color);
@@ -23,8 +21,7 @@
 .site-footer input[type="search"],
 .site-footer input[type="submit"],
 .site-footer textarea {
-	border: 2px solid rgba(255, 255, 255, 0.1);
-	border: 2px solid var(--footer-border-color);
+	@include border-color(--footer-border-color);
 	@include color(--footer-link-hover-color);
 }
 
@@ -41,7 +38,8 @@
 .site-footer input[type="button"],
 .site-footer input[type="reset"],
 .site-footer input[type="submit"] {
-	@include color(--footer-link-hover-color);
+	@include color(--footer-background-color);
+	@include background(--footer-link-color);
 }
 
 .site-footer button:hover,
@@ -56,13 +54,13 @@
 .site-footer input[type="button"]:active,
 .site-footer input[type="reset"]:active,
 .site-footer input[type="submit"]:active {
-	@include color(--footer-border-color);
+	@include color(--footer-background-color);
+	@include background(--footer-link-hover-color);
 }
 
 /* Footer Navigation */
 .footer-menus-inner {
-	padding-bottom: 1.25rem;
-	margin-bottom: 1.25rem;
+	padding: 1.5rem;
 	border-bottom: 1px solid;
 	@include border-color(--footer-border-color);
 }
@@ -116,7 +114,7 @@
 
 /* Footer Widgets */
 .footer-widgets {
-	padding-top: 0.5rem;
+	padding: 1.5rem 1.5rem 0;
 }
 
 .footer-widgets .widget {
@@ -136,13 +134,14 @@
 
 /* Footer Copyright */
 .footer-copyright {
-	margin-bottom: 1.25rem;
-	padding-top: 1.25rem;
+	padding: 1rem;
 	border-top: 1px solid;
 	@include border-color(--footer-border-color);
+	@include font-size(14);
 }
 
-.footer-copyright .widget {
+.footer-copyright .widget,
+.footer-copyright .widget p {
 	margin: 0;
 }
 
