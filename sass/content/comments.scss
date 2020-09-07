@@ -8,8 +8,8 @@
 .comments-title,
 .comment-reply-title {
 	position: relative;
-	margin: 0 0 2rem;
-	padding: 0 0 1rem;
+	margin: 0 0 1rem;
+	padding: 0;
 	@include color(--title-color);
 	-ms-word-wrap: break-word;
 	word-wrap: break-word;
@@ -17,23 +17,12 @@
 	@include font-family(--title-font);
 	@include font-weight(--title-font-weight);
 	@include text-transform(--title-text-transform);
-
-	&::before {
-		display: inline-block;
-		position: absolute;
-		left: 0;
-		bottom: 0;
-		width: 4rem;
-		height: 4px;
-		content: "";
-		@include background(--title-border-color);
-	}
 }
 
 /* Comment List */
 .comment-list {
 	margin: 0;
-	padding: 0;
+	padding: 1rem 0 0;
 	list-style: none;
 }
 

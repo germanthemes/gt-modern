@@ -120,6 +120,7 @@
 					max-width: 450px;
 					flex-grow: 1;
 					border: 1px solid;
+					@include border-color(--header-border-color);
 				}
 			}
 		}
