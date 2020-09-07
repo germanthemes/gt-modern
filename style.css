@@ -55,7 +55,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	--light-gray-color: #ebebeb;
 	--gray-color: #606060;
 	--dark-gray-color: #202020;
-	--text-color: #151515;
+	--text-color: #202020;
 	--light-text-color: rgba(0, 0, 0, 0.5);
 	--light-background-color: rgba(0, 0, 0, 0.05);
 	--medium-background-color: rgba(0, 0, 0, 0.15);
@@ -323,7 +323,7 @@ button,
 input,
 select,
 textarea {
-	color: #151515;
+	color: #202020;
 	color: var(--text-color);
 	font-size: 16px;
 	font-size: 1rem;
@@ -471,7 +471,7 @@ blockquote {
 	margin: 0 0 1.75rem;
 	padding-left: 1.75rem;
 	border-left: 4px solid;
-	border-color: #151515;
+	border-color: #202020;
 	border-color: var(--text-color);
 	color: rgba(0, 0, 0, 0.5);
 	color: var(--light-text-color);
@@ -485,7 +485,7 @@ blockquote p {
 
 blockquote cite {
 	display: block;
-	color: #151515;
+	color: #202020;
 	color: var(--text-color);
 	font-size: 16px;
 	font-size: 1rem;
@@ -651,7 +651,7 @@ textarea:focus {
 	border: 1px solid;
 	border-color: rgba(0, 0, 0, 0.3);
 	border-color: var(--medium-border-color);
-	color: #151515;
+	color: #202020;
 	color: var(--text-color);
 	outline: none;
 }
@@ -1804,7 +1804,7 @@ body.tags-hidden.single-post .type-post .entry-tags {
 	padding: 0;
 	font-size: 14px;
 	font-size: 0.875rem;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 .pagination .page-numbers,
@@ -1935,7 +1935,7 @@ body.tags-hidden.single-post .type-post .entry-tags {
 
 .comment-meta .comment-metadata a:hover,
 .comment-meta .comment-metadata a:active {
-	color: #151515;
+	color: #202020;
 	color: var(--text-color);
 }
 
@@ -2023,7 +2023,7 @@ body.tags-hidden.single-post .type-post .entry-tags {
 
 .comment-navigation a:hover,
 .comment-navigation a:active {
-	color: #151515;
+	color: #202020;
 	color: var(--text-color);
 }
 
@@ -2357,7 +2357,7 @@ p.has-background {
 }
 
 .wp-block-pullquote blockquote cite {
-	color: #151515;
+	color: #202020;
 	color: var(--text-color);
 	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--text-font);

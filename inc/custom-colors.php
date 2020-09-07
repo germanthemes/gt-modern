@@ -122,19 +122,11 @@ class GT_Modern_Custom_Colors {
 		// Set Title Color.
 		if ( $theme_options['title_color'] !== $default['title_color'] ) {
 			$color_variables .= '--title-color: ' . $theme_options['title_color'] . ';';
-			$color_variables .= '--widget-title-color: ' . $theme_options['title_color'] . ';';
 		}
 
 		// Set Title Hover Color.
 		if ( $theme_options['title_hover_color'] !== $default['title_hover_color'] ) {
 			$color_variables .= '--title-hover-color: ' . $theme_options['title_hover_color'] . ';';
-			$color_variables .= '--widget-title-hover-color: ' . $theme_options['title_hover_color'] . ';';
-		}
-
-		// Set Title Border Color.
-		if ( $theme_options['title_border_color'] !== $default['title_border_color'] ) {
-			$color_variables .= '--title-border-color: ' . $theme_options['title_border_color'] . ';';
-			$color_variables .= '--widget-title-border-color: ' . $theme_options['title_border_color'] . ';';
 		}
 
 		// Set Link Color.

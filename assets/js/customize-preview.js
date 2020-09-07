@@ -239,7 +239,6 @@
 	wp.customize( 'gt_modern_theme_options[title_color]', function( value ) {
 		value.bind( function( newval ) {
 			document.documentElement.style.setProperty( '--title-color', newval );
-			document.documentElement.style.setProperty( '--widget-title-color', newval );
 		} );
 	} );
 
@@ -247,15 +246,6 @@
 	wp.customize( 'gt_modern_theme_options[title_hover_color]', function( value ) {
 		value.bind( function( newval ) {
 			document.documentElement.style.setProperty( '--title-hover-color', newval );
-			document.documentElement.style.setProperty( '--widget-title-hover-color', newval );
-		} );
-	} );
-
-	/* Title Border Option */
-	wp.customize( 'gt_modern_theme_options[title_border_color]', function( value ) {
-		value.bind( function( newval ) {
-			document.documentElement.style.setProperty( '--title-border-color', newval );
-			document.documentElement.style.setProperty( '--widget-title-border-color', newval );
 		} );
 	} );
 

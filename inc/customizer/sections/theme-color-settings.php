@@ -102,22 +102,6 @@ function gt_modern_customize_register_theme_color_settings( $wp_customize ) {
 		)
 	) );
 
-	// Add Title Border Color setting.
-	$wp_customize->add_setting( 'gt_modern_theme_options[title_border_color]', array(
-		'default'           => $default['title_border_color'],
-		'type'              => 'option',
-		'transport'         => 'postMessage',
-		'sanitize_callback' => 'sanitize_hex_color',
-	) );
-	$wp_customize->add_control( new WP_Customize_Color_Control(
-		$wp_customize, 'gt_modern_theme_options[title_border_color]', array(
-			'label'    => esc_html_x( 'Title Border', 'Color Option', 'gt-modern' ),
-			'section'  => 'gt_modern_section_theme_colors',
-			'settings' => 'gt_modern_theme_options[title_border_color]',
-			'priority' => 60,
-		)
-	) );
-
 	// Add Link Color setting.
 	$wp_customize->add_setting( 'gt_modern_theme_options[link_color]', array(
 		'default'           => $default['link_color'],

@@ -15,7 +15,7 @@
 	--light-gray-color: #ebebeb;
 	--gray-color: #606060;
 	--dark-gray-color: #202020;
-	--text-color: #151515;
+	--text-color: #202020;
 	--light-text-color: rgba(0, 0, 0, 0.5);
 	--light-background-color: rgba(0, 0, 0, 0.05);
 	--medium-background-color: rgba(0, 0, 0, 0.15);
@@ -154,13 +154,13 @@ body.gt-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-post-
 
 /* Typography */
 .editor-styles-wrapper {
-	color: #151515;
+	color: #202020;
 	color: var(--text-color);
 	background-color: var(--body-background-color);
 }
 
 .editor-styles-wrapper > * {
-	color: #151515;
+	color: #202020;
 	color: var(--text-color);
 	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--text-font);
@@ -290,7 +290,7 @@ body.gt-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-post-
 	border-radius: 0;
 	border-color: rgba(0, 0, 0, 0.1);
 	border-color: var(--light-border-color);
-	color: #151515;
+	color: #202020;
 	color: var(--text-color);
 	background-color: rgba(0, 0, 0, 0.05);
 	background-color: var(--light-background-color);
@@ -331,7 +331,7 @@ body.gt-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-post-
 	margin: 0 0 1.75rem;
 	padding-left: 1.75rem;
 	border-left: 4px solid;
-	border-color: #151515;
+	border-color: #202020;
 	border-color: var(--text-color);
 	color: rgba(0, 0, 0, 0.5);
 	color: var(--light-text-color);
@@ -351,7 +351,7 @@ body.gt-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-post-
 .wp-block-pullquote footer,
 .wp-block-pullquote .wp-block-pullquote__citation {
 	display: block;
-	color: #151515;
+	color: #202020;
 	color: var(--text-color);
 	font-size: 16px;
 	font-size: 1rem;
@@ -570,7 +570,7 @@ p.has-background {
 }
 
 .wp-block-pullquote blockquote cite {
-	color: #151515;
+	color: #202020;
 	color: var(--text-color);
 	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--text-font);
