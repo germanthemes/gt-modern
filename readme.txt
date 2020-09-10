@@ -12,7 +12,7 @@ GT Modern is a next generation theme built for the Gutenberg Block Editor.
 
 == Description ==
 
-GT Modern is a next generation theme built for the Gutenberg Block Editor. It comes with a clean and modern design and is packed with features, including social icons, a header search, multiple widget areas and several page templates.
+GT Modern is a stunning and elegant theme built for the new WordPress Block Editor. It comes with great typography and colors and is packed with features, including social icons, a header search, multiple widget areas and several page templates.
 
 For more information about GT Modern please go to https://germanthemes.de/en/themes/gt-modern/
 
