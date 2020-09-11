@@ -109,7 +109,7 @@ function gt_modern_scripts() {
 
 	// Register and enqueue navigation.js.
 	if ( has_nav_menu( 'primary' ) or has_nav_menu( 'social-header' ) ) {
-		wp_enqueue_script( 'gt-modern-navigation', get_theme_file_uri( '/assets/js/navigation.min.js' ), array( 'jquery' ), '20200327', true );
+		wp_enqueue_script( 'gt-modern-navigation', get_theme_file_uri( '/assets/js/navigation.min.js' ), array( 'jquery' ), '20200911', true );
 		$gt_modern_l10n = array(
 			'expand'   => esc_html__( 'Expand child menu', 'gt-modern' ),
 			'collapse' => esc_html__( 'Collapse child menu', 'gt-modern' ),
@@ -121,14 +121,14 @@ function gt_modern_scripts() {
 	// Register and enqueue header-search.js if enabled
 	if ( true === gt_modern_get_option( 'header_search' ) || is_customize_preview() ) :
 
-		wp_enqueue_script( 'gt-modern-header-search', get_theme_file_uri( '/assets/js/header-search.min.js' ), array( 'jquery' ), '20200327', true );
+		wp_enqueue_script( 'gt-modern-header-search', get_theme_file_uri( '/assets/js/header-search.min.js' ), array( 'jquery' ), '20200911', true );
 
 	endif;
 
 	// Register and enqueue scroll-to-top.js if enabled
 	if ( true === gt_modern_get_option( 'scroll_to_top' ) || is_customize_preview() ) :
 
-		wp_enqueue_script( 'gt-modern-scroll-to-top', get_theme_file_uri( '/assets/js/scroll-to-top.min.js' ), array( 'jquery' ), '20200327', true );
+		wp_enqueue_script( 'gt-modern-scroll-to-top', get_theme_file_uri( '/assets/js/scroll-to-top.min.js' ), array( 'jquery' ), '20200911', true );
 		wp_localize_script( 'gt-modern-scroll-to-top', 'gtModernScrollButton', gt_modern_get_svg( 'collapse' ) );
 
 	endif;
@@ -148,7 +148,7 @@ add_action( 'wp_enqueue_scripts', 'gt_modern_scripts' );
 * Enqueue theme fonts.
 */
 function gt_modern_theme_fonts() {
-	wp_enqueue_style( 'gt-modern-theme-fonts', get_template_directory_uri() . '/assets/css/theme-fonts.css', array(), '20200320' );
+	wp_enqueue_style( 'gt-modern-theme-fonts', get_template_directory_uri() . '/assets/css/theme-fonts.css', array(), '20200911' );
 }
 add_action( 'wp_enqueue_scripts', 'gt_modern_theme_fonts', 1 );
 add_action( 'enqueue_block_editor_assets', 'gt_modern_theme_fonts', 1 );

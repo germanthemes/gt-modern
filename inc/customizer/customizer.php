@@ -50,7 +50,7 @@ add_action( 'customize_register', 'gt_modern_customize_register_options' );
  * Embed JS file to make Theme Customizer preview reload changes asynchronously.
  */
 function gt_modern_customize_preview_js() {
-	wp_enqueue_script( 'gt-modern-customize-preview', get_template_directory_uri() . '/assets/js/customize-preview.js', array( 'customize-preview' ), '20200901', true );
+	wp_enqueue_script( 'gt-modern-customize-preview', get_template_directory_uri() . '/assets/js/customize-preview.min.js', array( 'customize-preview' ), '20200911', true );
 
 	// Load Custom Fonts from GT Local Fonts plugin in Customizer Preview if plugin is active.
 	if ( class_exists( 'GermanThemes_Local_Fonts' ) ) {
@@ -67,7 +67,7 @@ add_action( 'customize_preview_init', 'gt_modern_customize_preview_js' );
  * Embed JS for Customizer Controls.
  */
 function gt_modern_customizer_controls_js() {
-	wp_enqueue_script( 'gt-modern-customizer-controls', get_template_directory_uri() . '/assets/js/customizer-controls.min.js', array(), '20200825', true );
+	wp_enqueue_script( 'gt-modern-customizer-controls', get_template_directory_uri() . '/assets/js/customizer-controls.min.js', array(), '20200911', true );
 }
 add_action( 'customize_controls_enqueue_scripts', 'gt_modern_customizer_controls_js' );
 
@@ -76,6 +76,6 @@ add_action( 'customize_controls_enqueue_scripts', 'gt_modern_customizer_controls
  * Embed CSS styles Customizer Controls.
  */
 function gt_modern_customizer_controls_css() {
-	wp_enqueue_style( 'gt-modern-customizer-controls', get_template_directory_uri() . '/assets/css/customizer-controls.css', array(), '20200327' );
+	wp_enqueue_style( 'gt-modern-customizer-controls', get_template_directory_uri() . '/assets/css/customizer-controls.css', array(), '20200911' );
 }
 add_action( 'customize_controls_print_styles', 'gt_modern_customizer_controls_css' );
