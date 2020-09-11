@@ -17,7 +17,7 @@ class GT_Modern_License_Key {
 	static function setup() {
 
 		// Define Product ID.
-		define( 'GT_MODERN_PRODUCT_ID', 1869 );
+		define( 'GT_MODERN_PRODUCT_ID', 2533 );
 
 		// Define Update API URL.
 		define( 'GT_MODERN_STORE_API_URL', 'https://germanthemes.de' );
