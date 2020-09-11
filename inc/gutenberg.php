@@ -77,22 +77,22 @@ function gt_modern_gutenberg_support() {
 		),
 		array(
 			'name' => esc_html_x( 'Medium', 'block font size', 'gt-modern' ),
-			'size' => 24,
+			'size' => 22,
 			'slug' => 'medium',
 		),
 		array(
 			'name' => esc_html_x( 'Large', 'block font size', 'gt-modern' ),
-			'size' => 36,
+			'size' => 28,
 			'slug' => 'large',
 		),
 		array(
 			'name' => esc_html_x( 'Extra Large', 'block font size', 'gt-modern' ),
-			'size' => 48,
+			'size' => 36,
 			'slug' => 'extra-large',
 		),
 		array(
 			'name' => esc_html_x( 'Huge', 'block font size', 'gt-modern' ),
-			'size' => 64,
+			'size' => 48,
 			'slug' => 'huge',
 		),
 	) ) );
