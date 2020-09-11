@@ -24,7 +24,7 @@ For more information about GT Modern please go to https://germanthemes.de/en/the
 
 == Changelog ==
 
-= 1.0 - 2020-04-02 =
+= 1.0 - 2020-09-11 =
 * First Release
 
 == Copyright ==
@@ -70,6 +70,20 @@ Copyright: 2017 IcoMoon.io
 License: Distributed under the terms of the Open Font License (http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
 Copyright: Jeremy Tribby
 
-7. The photo used in screenshot.png is from Rebecca Li: https://unsplash.com/photos/nJ5hINhz6Fs
-License: Distributed under the terms of the Unsplash License (https://unsplash.com/license)
-Copyright: Rebecca Li (https://unsplash.com/@rbccali)
+7. The first photo used in screenshot.png is from StockSnap: https://stocksnap.io/photo/blonde-woman-S6JWBGXSUM
+License: Distributed under the terms of the Creative Commons CC0 license (https://creativecommons.org/publicdomain/zero/1.0/)
+Copyright: Nordwood Themes (https://stocksnap.io/author/nordwood)
+
+8. The second photo used in screenshot.png is from StockSnap: https://stocksnap.io/photo/man-phone-KNSJXBFYFZ
+License: Distributed under the terms of the Creative Commons CC0 license (https://creativecommons.org/publicdomain/zero/1.0/)
+Copyright: Nordwood Themes (https://stocksnap.io/author/nordwood)
+
+9. Images used only in the theme demo, not within theme files:
+https://stocksnap.io/photo/blonde-woman-S6JWBGXSUM
+https://stocksnap.io/photo/man-phone-KNSJXBFYFZ
+https://stocksnap.io/photo/blue-denim-UMLWILXWPK
+https://stocksnap.io/photo/person-woman-5GB7LPF8SD
+https://stocksnap.io/photo/people-woman-GZUHDFGSCN
+https://stocksnap.io/photo/people-woman-48XGPERBAM
+https://stocksnap.io/photo/hands-rings-6UB9F6E2HT
+https://stocksnap.io/photo/man-blue-DG2WOSY6EL
