@@ -1,9 +1,9 @@
 .wp-block {
-	max-width: calc(#{$contentWidth} + 30px);
+	max-width: calc(#{$contentWidth});
 }
 
 .wp-block[data-align="wide"] {
-	max-width: calc(#{$wideBlockWidth} + 30px);
+	max-width: calc(#{$wideBlockWidth});
 }
 
 .wp-block[data-align="full"] {
@@ -12,11 +12,11 @@
 
 /* Fullwidth Template */
 .gt-fullwidth-page-layout .wp-block {
-	max-width: calc(#{$contentFullwidth} + 30px);
+	max-width: calc(#{$contentFullwidth});
 }
 
 .gt-fullwidth-page-layout .wp-block[data-align="wide"] {
-	max-width: calc(#{$wideBlockFullwidth} + 30px);
+	max-width: calc(#{$wideBlockFullwidth});
 }
 
 .gt-fullwidth-page-layout .wp-block[data-align="full"] {
@@ -33,41 +33,23 @@
 		@include text-transform(--title-text-transform);
 		@include line-height(--title-line-height);
 	}
-
-	> div {
-		padding-bottom: 0.5rem;
-
-		&::before {
-			display: inline-block;
-			position: absolute;
-			left: 1rem;
-			bottom: 0;
-			width: 4rem;
-			height: 4px;
-			content: "";
-			@include background(--title-border-color);
-		}
-	}
 }
 
 @media only screen and (min-width: 640px) {
-	.editor-post-title__block .editor-post-title__input,
-	.editor-styles-wrapper .wp-block h1.is-style-gt-heading {
-		@include font-size(34);
+	.editor-post-title__block .editor-post-title__input {
+		@include font-size(32);
 	}
 }
 
 @media only screen and (min-width: 960px) {
-	.editor-post-title__block .editor-post-title__input,
-	.editor-styles-wrapper .wp-block h1.is-style-gt-heading {
-		@include font-size(40);
+	.editor-post-title__block .editor-post-title__input {
+		@include font-size(36);
 	}
 }
 
 @media only screen and (min-width: 1280px) {
-	.editor-post-title__block .editor-post-title__input,
-	.editor-styles-wrapper .wp-block h1.is-style-gt-heading {
-		@include font-size(48);
+	.editor-post-title__block .editor-post-title__input {
+		@include font-size(40);
 	}
 }
 

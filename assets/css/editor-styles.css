@@ -59,11 +59,11 @@
 # - Layout
 --------------------------------------------------------------*/
 .wp-block {
-	max-width: calc(880px + 30px);
+	max-width: calc(880px);
 }
 
 .wp-block[data-align="wide"] {
-	max-width: calc(1120px + 30px);
+	max-width: calc(1120px);
 }
 
 .wp-block[data-align="full"] {
@@ -72,11 +72,11 @@
 
 /* Fullwidth Template */
 .gt-fullwidth-page-layout .wp-block {
-	max-width: calc(1328px + 30px);
+	max-width: calc(1328px);
 }
 
 .gt-fullwidth-page-layout .wp-block[data-align="wide"] {
-	max-width: calc(1440px + 30px);
+	max-width: calc(1440px);
 }
 
 .gt-fullwidth-page-layout .wp-block[data-align="full"] {
@@ -99,42 +99,24 @@
 	line-height: var(--title-line-height);
 }
 
-.editor-post-title__block > div {
-	padding-bottom: 0.5rem;
-}
-
-.editor-post-title__block > div::before {
-	display: inline-block;
-	position: absolute;
-	left: 1rem;
-	bottom: 0;
-	width: 4rem;
-	height: 4px;
-	content: "";
-	background-color: var(--title-border-color);
-}
-
 @media only screen and (min-width: 640px) {
-	.editor-post-title__block .editor-post-title__input,
-	.editor-styles-wrapper .wp-block h1.is-style-gt-heading {
-		font-size: 34px;
-		font-size: 2.125rem;
+	.editor-post-title__block .editor-post-title__input {
+		font-size: 32px;
+		font-size: 2rem;
 	}
 }
 
 @media only screen and (min-width: 960px) {
-	.editor-post-title__block .editor-post-title__input,
-	.editor-styles-wrapper .wp-block h1.is-style-gt-heading {
-		font-size: 40px;
-		font-size: 2.5rem;
+	.editor-post-title__block .editor-post-title__input {
+		font-size: 36px;
+		font-size: 2.25rem;
 	}
 }
 
 @media only screen and (min-width: 1280px) {
-	.editor-post-title__block .editor-post-title__input,
-	.editor-styles-wrapper .wp-block h1.is-style-gt-heading {
-		font-size: 48px;
-		font-size: 3rem;
+	.editor-post-title__block .editor-post-title__input {
+		font-size: 40px;
+		font-size: 2.5rem;
 	}
 }
 
@@ -624,7 +606,6 @@ p.has-background {
 /* Group Block */
 .wp-block-group.has-background {
 	padding: 1.5rem;
-	margin-bottom: 0;
 }
 
 .wp-block-group.has-background > .wp-block-group__inner-container > *:first-child {
