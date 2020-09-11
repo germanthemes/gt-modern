@@ -2,15 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GT Modern\n"
 "Report-Msgid-Bugs-To: https://themezee.com/\n"
-"POT-Creation-Date: 2020-04-02 14:12+0200\n"
-"PO-Revision-Date: 2020-04-02 14:16+0200\n"
+"POT-Creation-Date: 2020-09-11 14:49+0200\n"
+"PO-Revision-Date: 2020-09-11 14:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: GermanThemes <support@germanthemes.de>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.4.1\n"
 "X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
 "_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
 "esc_html_x:1,2c\n"
@@ -428,37 +428,24 @@ msgstr ""
 msgid "License Key"
 msgstr "Lizenzschlüssel"
 
-#: inc/customizer/sections/license-settings.php:55
-msgid "GT Blocks"
-msgstr "GT Blocks"
-
-#: inc/customizer/sections/license-settings.php:56
-msgid ""
-"With our flexible and innovative blocks for the new WordPress Editor, you "
-"can create complex layouts for your business website in just a few minutes."
-msgstr ""
-"Mit unseren flexiblen und innovativen Blocks für den neuen WordPress Editor "
-"kannst du in wenigen Minuten komplexe Layouts für deine Business-Website "
-"erstellen."
-
 #: inc/customizer/sections/theme-color-settings.php:17
 msgid "Theme Colors"
 msgstr "Theme Farben"
 
 #: inc/customizer/sections/theme-color-settings.php:34
 msgctxt "Color Option"
-msgid "Header Bar"
-msgstr "Header Bar"
+msgid "Header Background"
+msgstr "Header Hintergrund"
 
 #: inc/customizer/sections/theme-color-settings.php:50
 msgctxt "Color Option"
-msgid "Header Bar Icons"
-msgstr "Header Bar Icons"
+msgid "Header Text"
+msgstr "Header Text"
 
 #: inc/customizer/sections/theme-color-settings.php:66
 msgctxt "Color Option"
-msgid "Header"
-msgstr "Header"
+msgid "Header Hover"
+msgstr "Header Hover"
 
 #: inc/customizer/sections/theme-color-settings.php:82
 msgctxt "Color Option"
@@ -472,30 +459,25 @@ msgstr "Titel-Hover"
 
 #: inc/customizer/sections/theme-color-settings.php:114
 msgctxt "Color Option"
-msgid "Title Border"
-msgstr "Titel-Rahmen"
-
-#: inc/customizer/sections/theme-color-settings.php:130
-msgctxt "Color Option"
 msgid "Links"
 msgstr "Links"
 
-#: inc/customizer/sections/theme-color-settings.php:146
+#: inc/customizer/sections/theme-color-settings.php:130
 msgctxt "Color Option"
 msgid "Link Hover"
 msgstr "Link-Hover"
 
-#: inc/customizer/sections/theme-color-settings.php:162
+#: inc/customizer/sections/theme-color-settings.php:146
 msgctxt "Color Option"
 msgid "Buttons"
 msgstr "Buttons"
 
-#: inc/customizer/sections/theme-color-settings.php:178
+#: inc/customizer/sections/theme-color-settings.php:162
 msgctxt "Color Option"
 msgid "Button Hover"
 msgstr "Button-Hover"
 
-#: inc/customizer/sections/theme-color-settings.php:194
+#: inc/customizer/sections/theme-color-settings.php:178
 msgctxt "Color Option"
 msgid "Footer"
 msgstr "Footer"
@@ -629,8 +611,56 @@ msgid "Huge"
 msgstr "Riesig"
 
 #: inc/gutenberg.php:103
+msgid "GT Small"
+msgstr "GT Klein"
+
+#: inc/gutenberg.php:110
+msgid "GT Large"
+msgstr "GT Groß"
+
+#: inc/gutenberg.php:121
 msgid "GT Modern"
 msgstr "GT Modern"
+
+#: inc/gutenberg.php:125
+msgid "Hero Left"
+msgstr "Hero Links"
+
+#: inc/gutenberg.php:131
+msgid "Hero Right"
+msgstr "Hero Rechts"
+
+#: inc/gutenberg.php:137
+msgid "Features"
+msgstr "Features"
+
+#: inc/gutenberg.php:143
+msgid "Portfolio Grid"
+msgstr "Portfolio / Grid"
+
+#: inc/gutenberg.php:149
+msgid "Portfolio List"
+msgstr "Portfolio / Liste"
+
+#: inc/gutenberg.php:155
+msgid "Portfolio Gallery"
+msgstr "Portfolio / Galerie"
+
+#: inc/gutenberg.php:161
+msgid "Services List"
+msgstr "Services / Liste"
+
+#: inc/gutenberg.php:167
+msgid "Services / About"
+msgstr "Services / About"
+
+#: inc/gutenberg.php:173
+msgid "Services Columns"
+msgstr "Services / Spalten"
+
+#: inc/gutenberg.php:179
+msgid "Projects"
+msgstr "Projekte"
 
 #: inc/template-tags.php:98
 msgid "Search"
@@ -733,6 +763,26 @@ msgstr ""
 #: template-parts/post/content.php:24
 msgid "Continue reading"
 msgstr "Weiterlesen"
+
+#~ msgid "GT Blocks"
+#~ msgstr "GT Blocks"
+
+#~ msgid ""
+#~ "With our flexible and innovative blocks for the new WordPress Editor, you "
+#~ "can create complex layouts for your business website in just a few "
+#~ "minutes."
+#~ msgstr ""
+#~ "Mit unseren flexiblen und innovativen Blocks für den neuen WordPress "
+#~ "Editor kannst du in wenigen Minuten komplexe Layouts für deine Business-"
+#~ "Website erstellen."
+
+#~ msgctxt "Color Option"
+#~ msgid "Header Bar Icons"
+#~ msgstr "Header Bar Icons"
+
+#~ msgctxt "Color Option"
+#~ msgid "Title Border"
+#~ msgstr "Titel-Rahmen"
 
 #~ msgid "Theme Settings"
 #~ msgstr "Theme Einstellungen"
