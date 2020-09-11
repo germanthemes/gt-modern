@@ -1,19 +1,17 @@
 /* Typography */
-.editor-styles-wrapper {
-	@include color(--text-color);
-}
-
+.editor-styles-wrapper,
 .editor-styles-wrapper > * {
 	@include color(--text-color);
-	@include font-family(--text-font);
-	@include font-size(17);
-	@include line-height(--text-line-height);
 }
 
+.editor-styles-wrapper > *,
 .editor-styles-wrapper .wp-block p {
 	@include font-family(--text-font);
 	@include font-size(16);
 	@include line-height(--text-line-height);
+}
+
+.editor-styles-wrapper .wp-block p {
 	margin-bottom: 1.75rem;
 }
 
@@ -24,17 +22,10 @@
 	}
 }
 
-@media only screen and (min-width: 960px) {
-	.editor-styles-wrapper > *,
-	.editor-styles-wrapper .wp-block p {
-		@include font-size(18);
-	}
-}
-
 @media only screen and (min-width: 1280px) {
 	.editor-styles-wrapper > *,
 	.editor-styles-wrapper .wp-block p {
-		@include font-size(19);
+		@include font-size(18);
 	}
 }
 

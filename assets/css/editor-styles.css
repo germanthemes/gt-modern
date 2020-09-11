@@ -134,22 +134,13 @@ body.gt-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-post-
 --------------------------------------------------------------*/
 
 /* Typography */
-.editor-styles-wrapper {
-	color: #202020;
-	color: var(--text-color);
-}
-
+.editor-styles-wrapper,
 .editor-styles-wrapper > * {
 	color: #202020;
 	color: var(--text-color);
-	font-family: "Barlow", arial, helvetica, sans-serif;
-	font-family: var(--text-font);
-	font-size: 17px;
-	font-size: 1.0625rem;
-	line-height: 1.75;
-	line-height: var(--text-line-height);
 }
 
+.editor-styles-wrapper > *,
 .editor-styles-wrapper .wp-block p {
 	font-family: "Barlow", arial, helvetica, sans-serif;
 	font-family: var(--text-font);
@@ -157,6 +148,9 @@ body.gt-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-post-
 	font-size: 1rem;
 	line-height: 1.75;
 	line-height: var(--text-line-height);
+}
+
+.editor-styles-wrapper .wp-block p {
 	margin-bottom: 1.75rem;
 }
 
@@ -168,19 +162,11 @@ body.gt-page-title-hidden.block-editor-page .edit-post-visual-editor .edit-post-
 	}
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1280px) {
 	.editor-styles-wrapper > *,
 	.editor-styles-wrapper .wp-block p {
 		font-size: 18px;
 		font-size: 1.125rem;
-	}
-}
-
-@media only screen and (min-width: 1280px) {
-	.editor-styles-wrapper > *,
-	.editor-styles-wrapper .wp-block p {
-		font-size: 19px;
-		font-size: 1.1875rem;
 	}
 }
 
@@ -460,6 +446,7 @@ p.has-background {
 .wp-block-button__link {
 	margin: 0;
 	padding: 0.75rem 1.25rem;
+	font-size: 1em;
 	border: none;
 	border-radius: 0;
 	text-decoration: none;
