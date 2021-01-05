@@ -66,19 +66,23 @@ Copyright: 2012-2015 Nicolas Gallagher and Jonathan Neal
 License: Licensed under MIT license (https://github.com/Keyamoon/svgxuse/blob/master/license)
 Copyright: 2017 IcoMoon.io
 
-6. Barlow Font - https://fonts.google.com/specimen/Barlow
+6. WPTT Webfont Loader - https://github.com/WPTT/webfont-loader
+License: Distributed under the terms of the MIT License (https://github.com/WPTT/webfont-loader/blob/master/LICENSE)
+Copyright: 2020 Ari Stathopoulos, WordPress Themes Team
+
+7. Default Font: Barlow - https://fonts.google.com/specimen/Barlow
 License: Distributed under the terms of the Open Font License (http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
 Copyright: Jeremy Tribby
 
-7. The first photo used in screenshot.png is from StockSnap: https://stocksnap.io/photo/blonde-woman-S6JWBGXSUM
+8. The first photo used in screenshot.png is from StockSnap: https://stocksnap.io/photo/blonde-woman-S6JWBGXSUM
 License: Distributed under the terms of the Creative Commons CC0 license (https://creativecommons.org/publicdomain/zero/1.0/)
 Copyright: Nordwood Themes (https://stocksnap.io/author/nordwood)
 
-8. The second photo used in screenshot.png is from StockSnap: https://stocksnap.io/photo/man-phone-KNSJXBFYFZ
+9. The second photo used in screenshot.png is from StockSnap: https://stocksnap.io/photo/man-phone-KNSJXBFYFZ
 License: Distributed under the terms of the Creative Commons CC0 license (https://creativecommons.org/publicdomain/zero/1.0/)
 Copyright: Nordwood Themes (https://stocksnap.io/author/nordwood)
 
-9. Images used only in the theme demo, not within theme files:
+10. Images used only in the theme demo, not within theme files:
 https://stocksnap.io/photo/blonde-woman-S6JWBGXSUM
 https://stocksnap.io/photo/man-phone-KNSJXBFYFZ
 https://stocksnap.io/photo/blue-denim-UMLWILXWPK
