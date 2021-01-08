@@ -4,7 +4,7 @@ Theme URI: https://germanthemes.de/en/themes/gt-modern/
 Contributors: germanthemes
 Tags: custom-background, custom-logo, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, custom-colors, full-width-template, sticky-post, translation-ready, theme-options, one-column, wide-blocks, block-styles, block-patterns
 Requires at least: 5.3
-Tested up to: 5.5
+Tested up to: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,13 @@ For more information about GT Modern please go to https://germanthemes.de/en/the
 3. Go to https://germanthemes.de/en/docs/gt-modern-documentation/ for a guide on how to use and customize this theme.
 
 == Changelog ==
+
+= 1.2.1 - 2021-01-08 =
+* added WPTT Webfont loader to embed default theme fonts
+* updated typography options to use WPTT Webfont loader
+
+= 1.2 - 2021-01-08 =
+* skip to version 1.2 because version 1.0 included wrong version number
 
 = 1.0 - 2020-09-11 =
 * First Release
