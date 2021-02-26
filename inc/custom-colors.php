@@ -58,112 +58,112 @@ class GT_Modern_Custom_Colors {
 
 		// Set Primary Color.
 		if ( $theme_options['primary_color'] !== $default['primary_color'] ) {
-			$color_variables .= '--primary-color: ' . $theme_options['primary_color'] . ';';
+			$color_variables .= '--gt-modern--primary-color: ' . $theme_options['primary_color'] . ';';
 		}
 
 		// Set Secondary Color.
 		if ( $theme_options['secondary_color'] !== $default['secondary_color'] ) {
-			$color_variables .= '--secondary-color: ' . $theme_options['secondary_color'] . ';';
+			$color_variables .= '--gt-modern--secondary-color: ' . $theme_options['secondary_color'] . ';';
 		}
 
 		// Set Accent Color.
 		if ( $theme_options['accent_color'] !== $default['accent_color'] ) {
-			$color_variables .= '--accent-color: ' . $theme_options['accent_color'] . ';';
+			$color_variables .= '--gt-modern--accent-color: ' . $theme_options['accent_color'] . ';';
 		}
 
 		// Set Highlight Color.
 		if ( $theme_options['highlight_color'] !== $default['highlight_color'] ) {
-			$color_variables .= '--highlight-color: ' . $theme_options['highlight_color'] . ';';
+			$color_variables .= '--gt-modern--highlight-color: ' . $theme_options['highlight_color'] . ';';
 		}
 
 		// Set Light Gray Color.
 		if ( $theme_options['light_gray_color'] !== $default['light_gray_color'] ) {
-			$color_variables .= '--light-gray-color: ' . $theme_options['light_gray_color'] . ';';
+			$color_variables .= '--gt-modern--light-gray-color: ' . $theme_options['light_gray_color'] . ';';
 		}
 
 		// Set Gray Color.
 		if ( $theme_options['gray_color'] !== $default['gray_color'] ) {
-			$color_variables .= '--gray-color: ' . $theme_options['gray_color'] . ';';
+			$color_variables .= '--gt-modern--gray-color: ' . $theme_options['gray_color'] . ';';
 		}
 
 		// Set Dark Gray Color.
 		if ( $theme_options['dark_gray_color'] !== $default['dark_gray_color'] ) {
-			$color_variables .= '--dark-gray-color: ' . $theme_options['dark_gray_color'] . ';';
+			$color_variables .= '--gt-modern--dark-gray-color: ' . $theme_options['dark_gray_color'] . ';';
 		}
 
 		// Set Header Color.
 		if ( $theme_options['header_color'] !== $default['header_color'] ) {
-			$color_variables .= '--header-color: ' . $theme_options['header_color'] . ';';
-			$color_variables .= '--header-bar-color: ' . $theme_options['header_color'] . ';';
+			$color_variables .= '--gt-modern--header-color: ' . $theme_options['header_color'] . ';';
+			$color_variables .= '--gt-modern--header-bar-color: ' . $theme_options['header_color'] . ';';
 
 			// Check if a light background color was chosen.
 			if ( self::is_color_light( $theme_options['header_color'] ) ) {
-				$color_variables .= '--header-border-color: rgba(0, 0, 0, 0.1);';
+				$color_variables .= '--gt-modern--header-border-color: rgba(0, 0, 0, 0.1);';
 			}
 		}
 
 		// Set Header Text Color.
 		if ( $theme_options['header_text_color'] !== $default['header_text_color'] ) {
-			$color_variables .= '--header-text-color: ' . $theme_options['header_text_color'] . ';';
-			$color_variables .= '--header-bar-text-color: ' . $theme_options['header_text_color'] . ';';
+			$color_variables .= '--gt-modern--header-text-color: ' . $theme_options['header_text_color'] . ';';
+			$color_variables .= '--gt-modern--header-bar-text-color: ' . $theme_options['header_text_color'] . ';';
 		}
 
 		// Set Header Hover Color.
 		if ( $theme_options['header_hover_color'] !== $default['header_hover_color'] ) {
-			$color_variables .= '--header-hover-color: ' . $theme_options['header_hover_color'] . ';';
-			$color_variables .= '--header-bar-hover-color: ' . $theme_options['header_hover_color'] . ';';
+			$color_variables .= '--gt-modern--header-hover-color: ' . $theme_options['header_hover_color'] . ';';
+			$color_variables .= '--gt-modern--header-bar-hover-color: ' . $theme_options['header_hover_color'] . ';';
 		}
 
 		// Set Title Color.
 		if ( $theme_options['title_color'] !== $default['title_color'] ) {
-			$color_variables .= '--title-color: ' . $theme_options['title_color'] . ';';
+			$color_variables .= '--gt-modern--title-color: ' . $theme_options['title_color'] . ';';
 		}
 
 		// Set Title Hover Color.
 		if ( $theme_options['title_hover_color'] !== $default['title_hover_color'] ) {
-			$color_variables .= '--title-hover-color: ' . $theme_options['title_hover_color'] . ';';
+			$color_variables .= '--gt-modern--title-hover-color: ' . $theme_options['title_hover_color'] . ';';
 		}
 
 		// Set Link Color.
 		if ( $theme_options['link_color'] !== $default['link_color'] ) {
-			$color_variables .= '--link-color: ' . $theme_options['link_color'] . ';';
+			$color_variables .= '--gt-modern--link-color: ' . $theme_options['link_color'] . ';';
 		}
 
 		// Set Link Hover Color.
 		if ( $theme_options['link_hover_color'] !== $default['link_hover_color'] ) {
-			$color_variables .= '--link-hover-color: ' . $theme_options['link_hover_color'] . ';';
+			$color_variables .= '--gt-modern--link-hover-color: ' . $theme_options['link_hover_color'] . ';';
 		}
 
 		// Set Button Color.
 		if ( $theme_options['button_color'] !== $default['button_color'] ) {
-			$color_variables .= '--button-color: ' . $theme_options['button_color'] . ';';
+			$color_variables .= '--gt-modern--button-color: ' . $theme_options['button_color'] . ';';
 
 			// Check if a light background color was chosen.
 			if ( self::is_color_light( $theme_options['button_color'] ) ) {
-				$color_variables .= '--button-text-color: rgba(0, 0, 0, 0.95);';
+				$color_variables .= '--gt-modern--button-text-color: rgba(0, 0, 0, 0.95);';
 			}
 		}
 
 		// Set Button Hover Color.
 		if ( $theme_options['button_hover_color'] !== $default['button_hover_color'] ) {
-			$color_variables .= '--button-hover-color: ' . $theme_options['button_hover_color'] . ';';
+			$color_variables .= '--gt-modern--button-hover-color: ' . $theme_options['button_hover_color'] . ';';
 
 			// Check if a light background color was chosen.
 			if ( self::is_color_light( $theme_options['button_hover_color'] ) ) {
-				$color_variables .= '--button-text-hover-color: rgba(0, 0, 0, 0.95);';
+				$color_variables .= '--gt-modern--button-text-hover-color: rgba(0, 0, 0, 0.95);';
 			}
 		}
 
 		// Set Footer Color.
 		if ( $theme_options['footer_color'] !== $default['footer_color'] ) {
-			$color_variables .= '--footer-background-color: ' . $theme_options['footer_color'] . ';';
+			$color_variables .= '--gt-modern--footer-background-color: ' . $theme_options['footer_color'] . ';';
 
 			// Check if a light background color was chosen.
 			if ( self::is_color_light( $theme_options['footer_color'] ) ) {
-				$color_variables .= '--footer-text-color: rgba(0, 0, 0, 0.5);';
-				$color_variables .= '--footer-link-color: rgba(0, 0, 0, 0.95);';
-				$color_variables .= '--footer-link-hover-color: rgba(0, 0, 0, 0.5);';
-				$color_variables .= '--footer-border-color: rgba(0, 0, 0, 0.1);';
+				$color_variables .= '--gt-modern--footer-text-color: rgba(0, 0, 0, 0.5);';
+				$color_variables .= '--gt-modern--footer-link-color: rgba(0, 0, 0, 0.95);';
+				$color_variables .= '--gt-modern--footer-link-hover-color: rgba(0, 0, 0, 0.5);';
+				$color_variables .= '--gt-modern--footer-border-color: rgba(0, 0, 0, 0.1);';
 			}
 		}
 
