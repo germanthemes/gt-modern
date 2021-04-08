@@ -128,8 +128,8 @@ function gt_modern_scripts() {
 	// Register and enqueue scroll-to-top.js if enabled
 	if ( true === gt_modern_get_option( 'scroll_to_top' ) || is_customize_preview() ) :
 
-		wp_enqueue_script( 'gt-modern-scroll-to-top', get_theme_file_uri( '/assets/js/scroll-to-top.min.js' ), array( 'jquery' ), '20200911', true );
-		wp_localize_script( 'gt-modern-scroll-to-top', 'gtModernScrollButton', gt_modern_get_svg( 'collapse' ) );
+		wp_enqueue_script( 'gt-modern-scroll-to-top', get_theme_file_uri( '/assets/js/scroll-to-top.min.js' ), array( 'jquery' ), '20210408', true );
+		wp_localize_script( 'gt-modern-scroll-to-top', 'gtModernScrollButton', array( 'icon' => gt_modern_get_svg( 'collapse' ) ) );
 
 	endif;
 
