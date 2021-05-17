@@ -332,7 +332,7 @@ function gt_modern_theme_updater() {
 		$theme_updater = new GT_Modern_Theme_Updater(
 			array(
 				'remote_api_url' => GT_MODERN_STORE_API_URL,
-				'version'        => '1.2.1',
+				'version'        => '1.2.2',
 				'license'        => trim( gt_modern_get_option( 'license_key' ) ),
 				'item_id'        => GT_MODERN_PRODUCT_ID,
 				'item_name'      => 'GT Modern',
