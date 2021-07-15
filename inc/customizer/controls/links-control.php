@@ -42,6 +42,12 @@ if ( class_exists( 'WP_Customize_Control' ) ) :
 					</a>
 				</p>
 
+				<p>
+					<a href="<?php echo esc_url( __( 'https://wordpress.org/support/theme/gt-modern/reviews/', 'gt-modern' ) ); ?>" target="_blank">
+						<?php esc_html_e( 'Rate this theme', 'gt-modern' ); ?>
+					</a>
+				</p>
+
 			</div>
 
 			<?php
