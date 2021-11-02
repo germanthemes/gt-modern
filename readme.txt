@@ -24,6 +24,10 @@ For more information about GT Modern please go to https://germanthemes.de/en/the
 
 == Changelog ==
 
+= 1.3.1 - 2021-11-02 =
+* removed placeholder content for top bar contact info
+* fixed error messages on new block-based Widgets Editor for WP 5.8
+
 = 1.3 - 2021-07-15 =
 * removed license key settings for free theme release
 
